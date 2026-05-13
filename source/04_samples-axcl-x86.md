@@ -297,7 +297,7 @@ modelscope download AXERA-TECH/3D-Speaker-MT.axera --local_dir 3D-Speaker-MT.axe
 # 安装相关依赖
 cd /root/3D-Speaker-MT.axera/
 pip3 install -r requirements.txt
-pip3 install ax_meeting-0.1.0-py3-none-any.whl
+pip3 install dist/ax_meeting-0.1.0-py3-none-any.whl
 
 # 运行
 python3 -m ax_meeting.server
