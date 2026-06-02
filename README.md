@@ -2,7 +2,7 @@
 
 [**在线文档预览（latest）**](https://awesome-npu-docs.readthedocs.io/zh-cn/latest/index.html#)
 
-[**DEV 在线预览**](https://awesome-npu-docs.readthedocs.io/zh-cn/dev/index.html#)（需在 Read the Docs 后台启用 `dev` 版本）
+[**DEV 在线预览**](https://axera-tech.github.io/awesome-docs/)（由 `dev` 分支自动部署到 GitHub Pages）
 
 ## 1. 项目背景
 
