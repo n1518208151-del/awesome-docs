@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/01_overview/index.md:1 36f002e180224850a085c6d83d4dbe17
+msgid "1. 概览与快速入门"
+msgstr ""
+
+#: ../../source/01_overview/index.md:3 0b5b026684a141aebaafb81691082247
+msgid "本章帮助你在 5 分钟内建立对 AXERA 全产品线的整体认知，并快速点亮第一块开发板。"
+msgstr ""
+
+#: ../../source/01_overview/index.md:13 506fb8d6d13c49a3b45ea526a6dcdc7e
+msgid "本章导读"
+msgstr ""
+
+#: ../../source/01_overview/index.md:15 8064313f3d164611b4e1912d1e4e3616
+msgid "**产品全景图**：芯片核心参数速查、典型应用场景一览。"
+msgstr ""
+
+#: ../../source/01_overview/index.md:16 361c96506bfd42f4a2361e1892f5b3dc
+msgid "**快速开始**：从开箱到跑通第一个 Hello World。"
+msgstr ""
+
+#: ../../source/01_overview/index.md:17 f621efa626b948dcbcab3647b217be34
+msgid "**文档导航图**：按角色（社区开发者 / 商用客户 / 板卡厂家）找到你需要的章节。"
+msgstr ""
+

@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/01_overview/product_panorama.md:1
+#: a9f1e1503db744c89a7a27233c162a91
+msgid "产品全景图"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:3
+#: 2ebc6e83c0d5473380591472fdd680af
+msgid "芯片核心参数速查表"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:5
+#: 148430f778b14cd993afb150f7f8ba60
+msgid ""
+"TODO：补充各芯片完整规格（制程、CPU、NPU 算力、编解码能力、典型功耗）。 数据来源以 [官方产品规格书](https://www"
+".axera-tech.com/zh-hans/product/vision) 为准。"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 9cb1a9baeb834287a934d932b65e3f45
+msgid "芯片型号"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: ffb309674bc549cb84638828d322998e
+msgid "定位"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 59c7debf22c343bf95b6adabdf58c281
+msgid "NPU 算力"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 338f4264684d49eba17300a19fc08e24
+msgid "典型形态"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 4650ee6aa2fb49d487e2b9b0529e63a2
+msgid "规格书"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: a86842fad50a4f3e84626019297b1802
+msgid "AX650N"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 4a36ab4c999f4c908f42d930da394ec5
+msgid "终端/边缘"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 4a215ff16e684b97be1f1f30dd59763b 649dcceddc594996bab10a99dff4d7b5
+#: 665ee2553edb462abd76b006ebe56be6 907efa5ecaed46d3b722a8e60d130ad4
+#: a2f9b7ab347e4c84b8319243ba563eb0
+msgid "TODO"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 2cea4561f5ea4c7dbbb3413373db021f
+msgid "开发板 / 算力卡"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 7184be860324480883369861e40c97ff
+msgid ""
+"[PDF](https://www.axera-"
+"tech.com/sites/default/files/2025-11/AXera%20AX8850N.pdf)"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: f8ccc1f89dcc4c5ebc05cb63c9329f10
+msgid "AX8850"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 18a3770348c94fcfae510c233b6d8fb9 5e8bdf6acd7f4ed79d72a0bd8bb7613a
+msgid "边缘计算"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 66d51b8ebc1e4bfb8a567285350be732
+msgid "开发板 / M.2 算力卡"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 2e5de12bccbf4c55a2a0662737c9eaad
+msgid "AX8850N"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md
+#: 405db4fecbc24204aec0bc1a58647527
+msgid "开发板 / AIBOX"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:14
+#: df784925a5d84247890bcdfe0f008759
+msgid "应用场景"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:16
+#: 066379c9df2f47b0b2de503e0e294f30
+msgid "AXERA 产品广泛应用于以下场景："
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:18
+#: 574f8f6246dc4b13ba12389a1e23aeea
+msgid "**智慧安防**：AI NVR、AIBOX、智能相机"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:19
+#: ebf4bb0294f546838c54495ed5247c43
+msgid "**大语言模型 (LLM/VLM)**：端侧大模型推理、多模态理解"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:20
+#: 2d8644d02819401c80acb3ae26580e90
+msgid "**智能语音**：ASR / TTS / 降噪"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:21
+#: 5eca9bea120d4c528f70240557e756b4
+msgid "**工业视觉**：检测、分割、关键点、双目深度"
+msgstr ""
+
+#: ../../source/01_overview/product_panorama.md:24
+#: 38f8822653bc417aa5753bff664f14f3
+msgid "场景雷达图（安防 / LLM / 语音 / 工业等维度对比）TODO：待补充可视化图表。"
+msgstr ""
+

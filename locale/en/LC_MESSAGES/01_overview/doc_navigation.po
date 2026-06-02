@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/01_overview/doc_navigation.md:1
+#: c638c7eb3dd04a5489d6e2a8c093e259
+msgid "文档导航图"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:3
+#: a2f6d22ceee74d0c8ff6898bba0ddc0f
+msgid "根据你的身份，选择最适合的阅读路径。"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:23
+#: 23d5643cf8c04f9f9204cb6a9cb5feaf
+msgid "按章节速查"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 9e3728a44ceb4af287936a8f93651bae
+msgid "你想做什么"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: f67d8e19a9224a95a6823239d870409a
+msgid "去哪一章"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: ebc5de91aa1a4663aae686b979e97d52
+msgid "了解芯片规格与场景"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: c0746ebf984746f495689563857ef5ed
+msgid "[1. 概览与快速入门](index.md)"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 775d3355bfc64c64b3afa9c8739bbeb6
+msgid "查模型推理速度 / 能效比"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 41284767bcc24e08aa348d431633b0c5
+msgid "[2. 性能与基准测试](../02_benchmark/index.md)"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 277d1bb45ef9456a987e4e7143dc9845
+msgid "选板卡 / 算力卡"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 3f3ac6259eb14c948a775da4a89ffc8d
+msgid "[3. 生态硬件](../03_hardware/index.md)"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: d4d4271c94fb45208f70baab1e8b55a7
+msgid "搭环境 / 用工具链"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: ae6eb44333e14f429f1fc46b4a110840
+msgid "[4. 开发环境与工具链](../04_dev_environment/index.md)"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 087d532d842d486d908552a30ac4704f
+msgid "跑 AI 算法示例"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 34078db6d63243b780adc07a8da11cd4
+msgid "[5. 算法与中间件](../05_algorithm/index.md)"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 9e4bc67da519474d9d110a6eed528127
+msgid "找行业落地方案"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 15776b6d6f5f4f5d862e083891ea8ae6
+msgid "[6. 行业解决方案](../06_solutions/index.md)"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 5ce418889d1e422d816150596699275d
+msgid "第三方应用合作"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 7266c217cf7649cd9646186e9c947e18
+msgid "[7. 第三方应用与生态合作](../07_thirdparty/index.md)"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 4b368f8cf2f146df990f5bfca60d91d3
+msgid "加群 / 提 PR / 看更新"
+msgstr ""
+
+#: ../../source/01_overview/doc_navigation.md:5
+#: 626664192c07438aa534bf56f6f26bf0
+msgid "[8. 社区与支持](../08_community/index.md)"
+msgstr ""
+

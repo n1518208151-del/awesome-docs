@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:1
+#: 5432057d382040f49b8a38a9c6fb332d
+msgid "示例展示（算力卡 aarch64平台）"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:3
+#: d458c75c88fb41c98cf918d44b22d816
+msgid "安装AX-LLM"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:5
+#: c210c92094b44aeaa4426bffc7bd1326
+msgid "LLM和Multimodal Models的示例需要依赖AX-LLM工具来运行，用户可以通过以下任一方式安装AX-LLM："
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:7
+#: 8473c8ed208547c18d21df413326df82
+msgid "方式一：克隆仓库后执行安装脚本："
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:15
+#: 4d2517fb6cf04cf3a6694bde53372ae3
+msgid "方式二：一行命令安装（默认分支 `axllm`）："
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:21
+#: 9a2ecf7659184fb59761ab1a3780495f
+msgid "方式三：下载Github Actions CI 导出的可执行程序（适合没有编译环境的用户）："
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:23
+#: 06ed670689d245f69e8f94bd6b83d0aa
+msgid ""
+"如果没有编译环境，请到： `https://github.com/AXERA-TECH/ax-"
+"llm/actions?query=branch%3Aaxllm` 下载 **最新 CI 导出的可执行程序**（`axllm`），然后："
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:32
+#: 8b9cee0c18ec427caf01205044e95f20
+msgid "LLM"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:34
+#: b3400039a9d14a819166577ff286b990
+msgid "Qwen3.5-2B"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:56
+#: a3f5cc7a574b426480742e243eef2c47
+msgid "Qwen3-4B"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:79
+#: 4b77620c61354423a1d3ad4aa38322f2
+msgid "Qwen3-1.7B"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:102
+#: e79482e2cc7c40c0b20d7b5378a7140a
+msgid "Qwen3-0.6B"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:124
+#: 43f3f241591d4a6f90a0ae047eeaf256
+msgid "Multimodal Models"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:126
+#: 082731ed27da4c37b4535a694fd2f716
+msgid "Qwen3-VL-2B-Instruct-GPTQ-Int4(图片&视频理解)"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:148
+#: 90521c4750af4653adf9bf79427b78c8
+msgid "FastVLM-1.5B(图片理解)"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:171
+#: 6ac5edb45f864dc7888c16c02cd8d4c9
+msgid "Vision Models"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:173
+#: aef687bbeb2c466a92819c06d8e666dd
+msgid "Depth-Anything-V2"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:193
+#: de78eb741e0348f9b0cc25bb8936148c
+msgid "YOLO-World-V2(万物检测)"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:216
+#: c35600fca8a84a6997eecb3110cd8b86
+msgid "YOLO11"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:238
+#: 8c05e30f0e0940629c3c7ac6fcb9ee4f
+msgid "HuggingFaceTB"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:240
+#: b2e567ae335642c78455cfda68ffa67f
+msgid ""
+"针对性适配 Huggingface 的 AI LAB 开源的 SmolLM2-360M-Instruct 和 SmolVLM2-500M-"
+"Video-Instruct_Ax650 模型，提供了在 AXCL-AARCH64 平台上运行的示例，用户可以参考上述示例快速上手运行 "
+"Huggingface 的模型。"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:242
+#: d9810345ef164206b02c453b817a2c73
+msgid "SmolLM2-360M-Instruct"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:266
+#: 89e1d6f4978f48d5935e9e94450f4bc3
+msgid "SmolVLM2-500M-Video-Instruct"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:286
+#: 7940a454251044bb94b6f7d939a6c1e4
+msgid "Audio Models"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:288
+#: 39c5598056e343a5b1510bfed9c8da89
+msgid "3D-Speaker-MT.axera（会议音频转录）"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:310
+#: 509dc5552b59451bb02a6c18d4137914
+msgid "SenseVoice"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:328
+#: 44b4178297ac412390c3808213631ea3
+msgid "Whisper"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_aarch64.md:347
+#: db6672fdee4e45758a6df2b59c63088b
+msgid "Kokoro"
+msgstr ""
+

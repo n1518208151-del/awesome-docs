@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/06_solutions/index.md:1 1e8ada16f1624f289537144fbf5fa770
+msgid "6. 行业解决方案"
+msgstr ""
+
+#: ../../source/06_solutions/index.md:3 edcd99d8fb2145448266f5cb88746eb8
+msgid "本章展示产品级落地方案，覆盖智慧安防、智慧办公与特定行业场景。"
+msgstr ""
+
+#: ../../source/06_solutions/index.md:13 74362ee57bc345c6bdbb802cb6681aab
+msgid "本章导读"
+msgstr ""
+
+#: ../../source/06_solutions/index.md:15 52ebb414b6004eeba28d99c34471e249
+msgid "**智慧安防与存储**：AI NVR、AI 相册、AIBOX 通用方案。"
+msgstr ""
+
+#: ../../source/06_solutions/index.md:16 05c7bb1ec4764e4780f71cfb266abddb
+msgid "**智慧办公与交互**：视讯系统、AI 会议、AI 翻译机。"
+msgstr ""
+
+#: ../../source/06_solutions/index.md:17 ef1b7108a9df4ad5b7fc6c758a1d00c5
+msgid "**特定行业方案**：端云协调、双目深度相机应用。"
+msgstr ""
+

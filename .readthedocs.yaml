@@ -9,32 +9,17 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
-    # You can also specify other tool versions:
-    # nodejs: "20"
-    # rust: "1.70"
-    # golang: "1.20"
 
+# 语言由 conf.py 读取 READTHEDOCS_LANGUAGE 环境变量自动切换：
+#   - 中文项目（主项目）：默认 zh_CN
+#   - 英文项目（翻译项目）：RTD 注入 READTHEDOCS_LANGUAGE=en
+# 在 Read the Docs 后台为英文创建「翻译项目」并关联到中文主项目即可。
 
 python:
   install:
     - requirements: requirements.txt
 
-# Build documentation in the "docs/" directory with Sphinx
 sphinx:
   configuration: source/conf.py
-  # You can configure Sphinx to use a different builder, for instance use the dirhtml builder for simpler URLs
-  # builder: "dirhtml"
-  # Fail on all warnings to avoid broken references
+  # 如需对损坏的引用更严格，可开启：
   # fail_on_warning: true
-
-# Optionally build your docs in additional formats such as PDF and ePub
-# formats:
-#   - pdf
-#   - epub
-
-# Optional but recommended, declare the Python requirements required
-# to build your documentation
-# See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# python:
-#   install:
-#     - requirements: docs/requirements.txt

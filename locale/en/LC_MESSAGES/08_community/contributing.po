@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/08_community/contributing.md:1 854e38e405d84b639541178593f0c0e4
+msgid "文档共创指南"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:3 0cbb169927014e568f4c3c68b37917fe
+msgid "本文档是**开放共创平台**，欢迎社区开发者、板卡厂家、生态伙伴共同维护。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:5 42c97664a65f47c785499e778eb7e033
+msgid "贡献方式"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:7 224be1f0ffb0472ea71735fa643f5d73
+msgid "1. 提交 Issue 反馈"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:9 ed4d383abf0f4a068b6c56686ffcf068
+msgid ""
+"发现内容错误、链接失效或有补充建议，请到 [awesome-docs Issues](https://github.com/AXERA-TECH"
+"/awesome-docs/issues) 提交。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:12
+#: 618a0777179649c1ad266c4f7365f46f
+msgid "2. 提交 Pull Request"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:14
+#: 9a5f61f2b89b4bb183e81172cbd9f221
+msgid "Fork 本仓库到你的账号。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:15
+#: fa902edd3bd34866b88f1c1bdd95e115
+msgid "基于 `dev` 分支创建你的特性分支（如 `feat/m5stack-llm8850`）。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:16
+#: 3bf827d2c4a34146866afb1ed2c28e4a
+msgid "修改对应章节的 Markdown 文件。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:17
+#: 922e325e54314d84a3bf826745bb44cc
+msgid "本地构建预览确认无误（见下文）。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:18
+#: f602652239104e6ca1cb3afb57f2c497
+msgid "提交 PR 到本仓库的 **`dev`** 分支，描述你的改动。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:21
+#: 886e51488ee540ef9fc34046d224871f
+msgid "请勿直接提交到 `main` 分支。`main` 为稳定上线版本，所有改动先经 `dev` 集成验证。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:24
+#: ecddfe42eb5442c2af55332ce8b87f54
+msgid "目录与命名约定"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:26
+#: dc429bb06cd04177b1d1de10f54d3c89
+msgid ""
+"每个章节为一个目录（`01_overview` ~ `08_community`），目录内 `index.md` 为章节入口（含 "
+"`toctree`）。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:27
+#: 3e44cb0319464c50b1084cac22392dbb
+msgid "新增页面统一使用小写下划线命名（如 `quick_start.md`）。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:28
+#: 953f523d17cd491b95b12b3d83868bca
+msgid "未完成内容统一用 `> TODO：...` 标注，便于检索待补充项。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:30
+#: 235e10a5d4744d6d980979562a19bcbb
+msgid "本地构建预览"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:44
+#: dc6b522465aa48f08d3b955fe28f2d75
+msgid "板卡厂家分权维护"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:46
+#: 04274132d45844fcbd65d0d9a7b1346d
+msgid "[生态硬件](../03_hardware/index.md) 章节由各板卡厂家维护自家页面，要求："
+msgstr ""
+
+#: ../../source/08_community/contributing.md:48
+#: f3db0ffad58f426887475c18099e1d84
+msgid "保证**无原厂介入支持下，板卡用户能独立完成性能评估**；"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:49
+#: 619326afa3d64068be7f01464be7aca0
+msgid "内容包含：公司简介、产品亮点与规格、适用场景、资源/购买链接。"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:51
+#: 3ed0aee55515447aad0c519599db9419
+msgid "内容补充原则"
+msgstr ""
+
+#: ../../source/08_community/contributing.md:53
+#: f31f8ef137b041f6a3fd647fbf6e586a
+msgid "90% 的内容已分散在 GitHub、Huggingface、知乎文章等渠道。 贡献时**先补充链接，再逐步扩充必要的正文内容**，降低共创门槛。"
+msgstr ""
+

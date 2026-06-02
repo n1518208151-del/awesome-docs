@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/02_benchmark/cnn_transformer.md:1
+#: db7b3a83a8a149dea1956039c810eb3e
+msgid "普通 CNN/Transformer 性能"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md:3
+#: 42901d5cc17047bda8ec2b944a946d87
+msgid "典型模型推理速度"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md:5
+#: 25ccfdc9b399436ead07f5a31f312f17
+msgid "TODO：补充常见视觉模型（YOLO 系列、ResNet、ViT 等）在各芯片上的推理耗时 (ms) / 吞吐 (FPS)。"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 7b109ef319b440d1821d761465f93fa5
+msgid "模型"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 93a1d2806a9940a8bf7ae9ee5dae1bac
+msgid "输入分辨率"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 609a91678a5e4c299a3e1a1d76567df6
+msgid "芯片"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 93046b4820a84444b6ba47afd7097d38
+msgid "推理耗时 (ms)"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 47e03f7d187f445787ac7ba13edceea2
+msgid "吞吐 (FPS)"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: e6b7c61ba48142ec81f9bd54949fb646
+msgid "YOLOv8"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 20989fd20eac4a0da87d9d711053130f 24170e1ea34f431c82743c2a9975336c
+msgid "640x640"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 103b28ef76c742a2943d67c191ae8322 9efacfabe9804fae89e9de0aca3b3aae
+#: b4cad573cbbd444a9e93c4c71732d488
+msgid "AX650N"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 15efa3de8cfd4e77a9165fd471cb112e 1ecf8d390299445da246a932fd858460
+#: 66c85ad1d5a74d0482711b2b466ea880 723572f70e1e4a76a23cf7be08bac092
+#: 95ca76a739264efbb34b51fe175be2c5 ae1828b2915d4847b1855b036a261987
+msgid "TODO"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 7967477aa6d44d2caca3932fa691f831
+msgid "YOLO11"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 08103067d2ab49978603a5ba987b0daa
+msgid "ResNet50"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md
+#: 70292a8d42564b208499f69e0e1716c3
+msgid "224x224"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md:13
+#: 61449264793d4d2cbb104cefabc45636
+msgid "能效比分析"
+msgstr ""
+
+#: ../../source/02_benchmark/cnn_transformer.md:15
+#: e417564e9c864ce485255deee5746de5
+msgid "TODO：补充每瓦算力 / 单位功耗下的吞吐表现。"
+msgstr ""
+

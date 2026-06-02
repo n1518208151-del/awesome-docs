@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/04_dev_environment/toolchain.md:1
+#: 510542b3880c4cb7a4a480d0f1704ec6
+msgid "核心工具链"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:3
+#: fd00afa9b50246f0a21b3bbad138d7ff
+msgid "NPU 工具链 (Pulsar2)"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:5
+#: dee8e08c405a4ef9be5fc823ebfa60c8
+msgid "我们会在第一时间将最新 Release 的 NPU 工具链 **Pulsar2** 释放到 Huggingface 上，方便开发者快速评估。"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:7
+#: 3ec9d4ec031c40cf87fa1806be611061
+msgid "**简介**：用于模型转换、量化、编译的离线工具链。"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:8
+#: c69927f7148d4c7d9602640cf5c4d1c3
+msgid "**在线文档**（更新可能不及时）："
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:9
+#: 0787fb486b8f498787e54b59cda23ef2
+msgid "[中文](https://pulsar2-docs.readthedocs.io/zh-cn/latest/index.html)"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:10
+#: 9f7e5dd10eb54ed993b05b7087ceeda1
+msgid "[英文](https://pulsar2-docs.readthedocs.io/en/latest/)"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:11
+#: b9bc707ec52f4aeab41c0423e0d4d379
+msgid "**下载**："
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:12
+#: 43d4de0fb2b04c2cb44c8f6e46140b0d
+msgid "[Huggingface (Docker)](https://hf-mirror.com/AXERA-TECH/Pulsar2)"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:13
+#: da74e8024c6c41a8b26b2c94b7ccbf7e
+msgid "Modelscope：TODO"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:15
+#: 558ee005039b4eb2a350b8d48a0913ce
+msgid "AXCL 开发库"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:17
+#: 859c9e06432f4e31a856423be80fcce6
+msgid "基于 AX650 系列芯片的 PCIE 算力卡所使用的固件与开发库。"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:19
+#: 4e543ea53f1a4b658ec6c32bf8f666f2
+msgid "**简介**：算力卡主控侧调用 NPU 的开发库与驱动。"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:20
+#: 5eb0b5a5eccb4b7abb61f6778c110714
+msgid "**在线文档**："
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:21
+#: baa56f0200214fac80c856411981dd29
+msgid "[中文](https://axcl-docs.readthedocs.io/zh-cn/latest/index.html)"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:22
+#: 03972833ecb4493c99e9e4fcd9ff90a8
+msgid "英文：TODO"
+msgstr ""
+
+#: ../../source/04_dev_environment/toolchain.md:23
+#: 9b4877980e6449f884f602ad315f7280
+msgid "**下载**：[安装包获取](https://hf-mirror.com/AXERA-TECH/AXCL)"
+msgstr ""
+

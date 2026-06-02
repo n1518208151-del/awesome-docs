@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/02_benchmark/index.md:1 a24c8d4e9f65436fb9e1300d0510f33f
+msgid "2. 性能与基准测试"
+msgstr ""
+
+#: ../../source/02_benchmark/index.md:3 3cbc562a478043e9b2691d2eee0dc156
+msgid ""
+"本章提供 AXERA 芯片在常见 CNN/Transformer 以及大模型 (LLM/VLM) 上的实测性能数据， "
+"帮助你在选型阶段快速评估能力边界。"
+msgstr ""
+
+#: ../../source/02_benchmark/index.md:14 60daee865f0a4f47bb164381fb94da0c
+msgid "本章导读"
+msgstr ""
+
+#: ../../source/02_benchmark/index.md:16 a2a1f9c1766449639c7f97fcf4955508
+msgid "**Benchmark 综述**：测试方法、环境与说明。"
+msgstr ""
+
+#: ../../source/02_benchmark/index.md:17 b2d4898b183240d3b4d8a33ac21bb05b
+msgid "**普通 CNN/Transformer 性能**：典型模型推理速度、能效比。"
+msgstr ""
+
+#: ../../source/02_benchmark/index.md:18 10d77249d2954c1080af8ec30a1b8e32
+msgid "**LLM/VLM 专项性能**：Tokens/s、首字延迟、并发路数、显存占用。"
+msgstr ""
+

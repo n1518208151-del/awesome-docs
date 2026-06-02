@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/05_algorithm/ai_cv.md:1 92daf9ab379c40fb9e44a84a74b355f6
+msgid "CV 类算法"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:3 345db28e435c4ce5b33f82dcc2d353d3
+msgid "计算机视觉算法参考实现。完整上板示例见 [示例展示](samples_board.md)。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:5 032d3a4629144bd38f32fafb603281de
+msgid "检测 / 关键点 / 分割"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:7 19a8516e4dcc49fa82ccf27dbbc67eeb
+msgid "**YOLO 系列**：YOLOv5 / v8 / v11 / v26、Ultralytics 全家桶。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:8 95390e1afbc642c0b5c1b22b3f048474
+msgid ""
+"参考文章：[基于 AX650 部署 "
+"YOLO11](https://zhuanlan.zhihu.com/p/772269394)、[YOLOv8](https://zhuanlan.zhihu.com/p/683050593)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:9 347a3902e3f7430884e9d8ae1b53512d
+msgid "上板示例：[YOLO11](samples_board.md)、[YOLO-World-V2](samples_board.md)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:10 2bd570af9095448e9957fde1c4f03a82
+msgid "TODO：补充各版本模型转换、精度对齐、上板部署说明。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:12 fc75ad6b288d40438f469746617f53ab
+msgid "人脸"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:14 552d1a21dde44a95a07fe8f8b03d3121
+msgid "**InsightFace**：人脸检测 / 识别 / 关键点。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:15 ../../source/05_algorithm/ai_cv.md:20
+#: 4fa8c525c6934931a45257c662ff3043 868536d1368c4a5797e990840b24e393
+msgid "TODO：补充部署示例与链接。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:17 0ad87f77f7f342e1a590d1570e20c14c
+msgid "分割"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_cv.md:19 134d0b6d7c564e0a91a0eca511ef60a0
+msgid "**SAM 系列**：Segment Anything 系列。"
+msgstr ""
+

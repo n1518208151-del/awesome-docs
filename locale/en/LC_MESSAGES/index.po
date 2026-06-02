@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/index.rst:9
+msgid "目录"
+msgstr ""
+
+#: ../../source/index.rst:2 0288dda3fad14ba7aee2aa61a104962b
+msgid "AXERA 产品文档中心"
+msgstr ""
+
+#: ../../source/index.rst:4 fe513378ecb74dae92fd30891b26704b
+msgid ""
+"欢迎来到 **AXERA 开放共创文档中心**。本站面向社区开发者与潜在商用客户， 覆盖 `终端计算 <https://www.axera-"
+"tech.com/zh-hans/product/vision>`_、 `边缘计算 <https://www.axera-tech.com/zh-"
+"hans/product/edge-aI-inference>`_ 等全产品线，帮助你稳定、可靠地掌握我们的产品规格与能力边界。"
+msgstr ""
+

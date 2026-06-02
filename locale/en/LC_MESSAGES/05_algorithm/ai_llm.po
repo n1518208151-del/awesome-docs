@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/05_algorithm/ai_llm.md:1 4f6f0cb9beed410d8e07ccae14de325c
+msgid "大模型类算法"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:3 e977a060d84147879fba4dd3e743d17c
+msgid "LLM / VLM 参考实现。完整上板示例见 [示例展示](samples_board.md)。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:5 17c7702d9cba493f85d167c97d6beccd
+msgid "LLM"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:7 ba703fcaa18540bc8fbbf7e28d79edfc
+msgid "已适配模型：Qwen3.5-2B、Qwen3-4B / 1.7B / 0.6B、SmolLM2 等。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:8 053db561cfcb4db7b3f5504d05e06489
+msgid "上板示例：[LLM 示例](samples_board.md)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:9 55fc6f66bbff4f6eb27bf0c08140ddac
+msgid "多芯级联示例：[Qwen2.5-7B TensorParallel](samples_axcl_x86_parallel.md)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:11 3ecccbfdb69d40d7a397530060403257
+msgid "VLM"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:13 7fcc54c4473444939c4b65c379df1b54
+msgid "已适配模型：Qwen3-VL-2B、FastVLM-1.5B、SmolVLM2 等。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:14 6ec0c42389bd4877b0372fd579d59c3d
+msgid "上板示例：[Multimodal 示例](samples_board.md)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:16 811ab826673c4aa0aa73da5a20fb286d
+msgid "OpenAI API 兼容套件 (ax-llm)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:18 6788867f723b461ea705cb2384cf4b0c
+msgid "[ax-llm](https://github.com/AXERA-TECH)：提供 CLI 与 OpenAI 兼容的 API 服务。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_llm.md:19 3157cb00a11d4918b61b1fdfe072bd46
+msgid "安装与使用：见各平台示例中的「安装 AX-LLM」小节。"
+msgstr ""
+

@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/07_thirdparty/thirdparty_apps.md:1
+#: 81d06155586942fd940c22cbb154371f
+msgid "第三方 AI 应用软件"
+msgstr ""
+
+#: ../../source/07_thirdparty/thirdparty_apps.md:3
+#: be3062ecb9a4495cae1b2fbe62e23346
+msgid "鲸算智能"
+msgstr ""
+
+#: ../../source/07_thirdparty/thirdparty_apps.md:5
+#: ../../source/07_thirdparty/thirdparty_apps.md:9
+#: 3494e8d9343b4ee9958c6fec69b4d0a6 c184a35441f04246b2ce4a9690399301
+msgid "**AIBOX APP + 算法 SDK**：TODO（应用介绍、能力清单、获取与对接链接）。"
+msgstr ""
+
+#: ../../source/07_thirdparty/thirdparty_apps.md:7
+#: d4596e85e68749ccaf50d31e3fc482aa
+msgid "广州联客"
+msgstr ""
+
+#: ../../source/07_thirdparty/thirdparty_apps.md:12
+#: 8810d7fdc4984743980728750489b6bd
+msgid "本页由第三方合作伙伴维护，欢迎补充更多应用与 SDK。"
+msgstr ""
+

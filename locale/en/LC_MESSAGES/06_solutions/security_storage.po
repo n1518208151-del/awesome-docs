@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/06_solutions/security_storage.md:1
+#: 21db41f7b5ee4cc89523b48c25569d8c
+msgid "智慧安防与存储"
+msgstr ""
+
+#: ../../source/06_solutions/security_storage.md:3
+#: 61a2a91158964d20a4b57c47fcb2e55e
+msgid "AI NVR"
+msgstr ""
+
+#: ../../source/06_solutions/security_storage.md:5
+#: c951ca64790e45f2abfaf1d24af17f4e
+msgid "**Fright NVR**（主控 / 协处理方案）：TODO（方案说明、架构图、部署链接）。"
+msgstr ""
+
+#: ../../source/06_solutions/security_storage.md:7
+#: 6be043953ab142d1ac627fc5924f46df
+msgid "AI 相册"
+msgstr ""
+
+#: ../../source/06_solutions/security_storage.md:9
+#: 63995a3d5e9a45a79f523596f6bbd020
+msgid "**Immich**：TODO（基于 AXERA 算力的相册智能整理方案说明与链接）。"
+msgstr ""
+
+#: ../../source/06_solutions/security_storage.md:11
+#: bf28da1060094e5a987c7abd7de69f60
+msgid "AIBOX 通用解决方案"
+msgstr ""
+
+#: ../../source/06_solutions/security_storage.md:13
+#: b1bca8f4a84e4bc8b4082e07e4e89f77
+msgid "TODO（AIBOX 在安防场景下的通用方案说明）。"
+msgstr ""
+

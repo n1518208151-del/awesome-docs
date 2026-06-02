@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/05_algorithm/middleware.md:1 5dc31fc280fd48429f214096f049da05
+msgid "高效开发中间件"
+msgstr ""
+
+#: ../../source/05_algorithm/middleware.md:3 7f9e2ec3ae3a463b9c6a7c6f95f7dd5e
+msgid "流媒体处理"
+msgstr ""
+
+#: ../../source/05_algorithm/middleware.md:5 b91701652e6c453cba1b8c86bebd9360
+msgid "**AX-Video**：TODO（视频流处理框架说明与链接）。"
+msgstr ""
+
+#: ../../source/05_algorithm/middleware.md:6 259ba93814c447ef81eb6fa050bfa4d6
+msgid "**AX-Pipeline**：TODO（端到端 AI 流水线框架说明与链接）。"
+msgstr ""
+
+#: ../../source/05_algorithm/middleware.md:8 315e9cfc688641d59eba39b7aaf758d8
+msgid "业务逻辑组件"
+msgstr ""
+
+#: ../../source/05_algorithm/middleware.md:10 0c14abc58474427ab767d9b43473a2b2
+msgid "**文搜图**：TODO（基于 CLIP 类模型的图文检索组件）。"
+msgstr ""
+
+#: ../../source/05_algorithm/middleware.md:11 d1474a8530a045b3b97ab7127629fbef
+msgid "**多国语言翻译**：TODO（翻译组件说明与链接）。"
+msgstr ""
+

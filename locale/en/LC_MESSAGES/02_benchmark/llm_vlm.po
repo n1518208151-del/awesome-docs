@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/02_benchmark/llm_vlm.md:1 91fa1cc18d8445ef97daf8e5af9da990
+msgid "LLM/VLM 专项性能"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md:3 79e712d8027f453eb32c2a9c5f49a3c8
+msgid "大模型推理速度 (Tokens/s)"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md:5 043549ebc0c4414997e0ea61608cf9e8
+msgid "TODO：补充各 LLM/VLM 在不同芯片、不同量化精度下的解码速度。"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 672cb77c91554b82a9b7c97ded77bdac
+msgid "模型"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 5ac0c183b52c407f90e7eec98a0d231c
+msgid "量化"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md fd8ae85631d04273ad08d8c5e7d01661
+msgid "芯片"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 9153ebdc62a642d79ccc4a13ac94ca68
+msgid "Prefill"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 50510d64b62d49058946859e10760425
+msgid "Decode (tokens/s)"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 63e178f3cdde442793bf8b017c659059
+msgid "Qwen3-0.6B"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 27a5251d82b64e28912789d3cd6ddd18
+#: 6fa375bf3f364d33a0cd5b98bfe0a8c6 7260e77a92024d87b76b98ba33fc34d3
+msgid "W8A16"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 009f9c97ddf340c19d3f2c82be72c103
+#: 6978b8a1800f4ec1bead5a6d67c24bff f774208c76d94c889f7715c3385e88c1
+msgid "AX650N"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md 68e0bc1a28fb43af9db901ad575d1032
+#: a097e07869384e5c8807b99e9611d3ba cfe1d8ebb71a4709998db8d8f9ecf26c
+#: eff9090a94854168a79ebc0b8d1f1db2 f2f669d79c714afbafd7d4419d5a3cb6
+#: f84eb863ccbc40b991859adcb7b5ffb0
+msgid "TODO"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md ccb8e724943142d3ba8caa1d29df30b3
+msgid "Qwen3-1.7B"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md a41330e957bd4b72b11ab4226e5f47f2
+msgid "Qwen3-4B"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md:13 6cbf8193763b4bc7bf0fbe249e616102
+msgid "首字延迟与并发路数"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md:15 b3ef1f081716467f8bea754a830df641
+msgid "TODO：补充 TTFT（首字延迟）与多路并发下的性能曲线。"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md:17 5da787e82d044bcb8696afbc587748e1
+msgid "显存占用分析"
+msgstr ""
+
+#: ../../source/02_benchmark/llm_vlm.md:19 1010622eccd74850998e6f6b49ffdb19
+msgid "TODO：补充不同模型 / 上下文长度下的 DDR 占用，用于硬件选型（DDR 容量）。"
+msgstr ""
+

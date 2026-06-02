@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/04_dev_environment/base_software.md:1
+#: 423ed30fcff141cb8d875ee57da2a116
+msgid "环境准备"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:3
+#: 874840585adb4e199b32206fe1c537cd
+msgid "主控开发板"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:5
+#: 21a34a34ed5e480c9461353518bbeeba
+msgid "固件版本"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:7
+#: b870c46adbe1424e9657b15db4ae7f54
+msgid ""
+"固件版本，是指烧写的 AXP 版本，确保手上的开发板已经升级到对应的版本，目前验证的是 `v3.6.2`。板子正常通电进入系统之后，使用 `cat"
+" /proc/ax_proc/version` 可以查询"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: a06b36248f2d49c4b240aa899fd973d7
+msgid "名称"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: 2fe2c126966843439a3588bdcd16ce1b
+msgid "AXP 版本"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: ee3f2400a49444809e8b0b101c5e3efb
+msgid "OS:CMM"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: d0b38e04c6ae470dbaa2e75108a717d9
+msgid "AX650N DEMO Board"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: c98762ba221a40239faa50a08b17099d
+msgid "AX650_emmc_ubuntu_rootfs_desktop_V3.6.2_20250731140456_NO26076_sdk"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: 9fe1fb72ae674b54b7742694982b7d47
+msgid "6 : 10"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: 11b937e5703a42c491f257732f1ece9d
+msgid "M4N-Dock(爱芯派Pro)"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: 214e17919d584df3bb7ee483b3a4778a
+msgid "AX650_pipro_box_ubuntu_rootfs_desktop_V3.6.2_20250603154858_NO4873_sdk.axp"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md
+#: 4394db39e4f949969d64f955fad410c3
+msgid "4 : 4"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:33
+#: 623312000d864a48b2eb0918b8d6cf8b
+msgid "对应的 axp 版本可以通过以下方式获取"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:35
+#: 58de203b6b9348ffab02ac8e9a86585c
+msgid "签约客户请联系对应的 FAE 获取；"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:36
+#: f390ac6e10a1423081065358ada8852e
+msgid "社区用户请从 [BoardImages](https://hf-mirror.com/AXERA-TECH/BoardImages) 获取。"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:38
+#: ../../source/04_dev_environment/base_software.md:124
+#: 6431cf67bf184c54bce124a690552758 9fe53c6a90ba44dcb45a39e063ecb823
+msgid "网络确认"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:40
+#: ../../source/04_dev_environment/base_software.md:125
+#: c986b852e162493f8ae6daa956cc802a fb80506eea864f3fb9ea51dcc4d37fe2
+msgid "首先确保开发板能正常访问互联网。"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:55
+#: ../../source/04_dev_environment/base_software.md:141
+#: 7a69638e408847649387b3f5a094d586 f14c2f7deb72435b99904253c027ec63
+msgid "环境依赖安装"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:57
+#: ../../source/04_dev_environment/base_software.md:142
+#: 7435b6e8327043f1bf5709c776b8f9c2 daae7b2c9ad9498088447eda41043318
+msgid "安装基础依赖"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:66
+#: ../../source/04_dev_environment/base_software.md:151
+#: 3022ae5b2f124c5e8fc11a640a9ef856 8552696e967a48f0998c174423175d4b
+msgid "安装 Python 依赖"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:75
+#: ../../source/04_dev_environment/base_software.md:160
+#: 983f115dcd1740319c805b6dcd6b1a90 faa260ebf2d04975ad2df8c78b0789f1
+msgid "安装 huggingface_hub"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:84
+#: ../../source/04_dev_environment/base_software.md:170
+#: 83da7e81d09c425f90810e0df0f0c316 895a976f74404cc0b17e815a4733d466
+msgid "从 huggingface 上下载 repo，建议使用 huggingface_hub 下载。"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:86
+#: dc6c78bcba4946f7b5c4766969ec22be
+msgid "安装 modelscope"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:92
+#: ../../source/04_dev_environment/base_software.md:172
+#: 03e8d2433cfc418fa3c47aeeeaa7545e 43698241fe7e41bf807584a36d5abddb
+msgid "安装 PyAXEngine"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:94
+#: ../../source/04_dev_environment/base_software.md:174
+#: 02f7f786dcd544a5918daab3365002dd 052556a693144f9e8641d583d47c1bac
+msgid ""
+"PyAXEngine 是 NPU Python API，其 API 尽可能的兼容了算法工程师熟悉的 ONNXRuntime Python "
+"API，方便用户上板快速验证结果。源码仓库请见 [pyaxengine ](https://github.com/AXERA-"
+"TECH/pyaxengine)"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:98
+#: ../../source/04_dev_environment/base_software.md:178
+#: b04471a7cb1c4bfe8dc8985bede33994 c3c8b1ae2a8f4d79970e32bde71a1d0d
+msgid "直接从 Github 上下载安装（有概率失败😖）"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:104
+#: ../../source/04_dev_environment/base_software.md:184
+#: 02baaab7a6b24d64a57179b366edea0c bac3e5db33514dd08a854cea9960121b
+msgid "或者从 huggingface 镜像站上下载"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:111
+#: ../../source/04_dev_environment/base_software.md:191
+#: 5ed977e5658b415ea0bfe4c4b9bfac4a fec096738a044bb18bb7eb9f2f07cabd
+msgid "安装 pyaxengine"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:117
+#: 7752e6c7379749ce991e7a4dfc4c0d65
+msgid "**基于 AX650N 主控开发板的依赖环境安装完成！🚀**"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:119
+#: 740c0e2033c24fc39e79a0db3246e3e0
+msgid "算力卡"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:120
+#: 7ead7d566ec9464dbb84b41322eb7391
+msgid "AXCL驱动安装"
+msgstr ""
+
+#: ../../source/04_dev_environment/base_software.md:122
+#: 46c29c15b59e48bca0e0940ed5f35e93
+msgid ""
+"算力卡需要提前配置AXCL驱动，详细安装流程请参考：[AXCL文档](https://axcl-docs.readthedocs.io/zh-"
+"cn/latest/)"
+msgstr ""
+

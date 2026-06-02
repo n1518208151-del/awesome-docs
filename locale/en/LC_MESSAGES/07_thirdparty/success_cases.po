@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/07_thirdparty/success_cases.md:1
+#: 6abb279d29cd4534940fb764ea96cdd0
+msgid "成功案例展示"
+msgstr ""
+
+#: ../../source/07_thirdparty/success_cases.md:3
+#: ea1486db4b564a49bdefcae6c6cc501d
+msgid "可选章节：收录客户落地案例分享。"
+msgstr ""
+
+#: ../../source/07_thirdparty/success_cases.md:5
+#: da7de55492414e7cbc5879d410329792
+msgid "TODO（案例标题、行业、方案概述、成效数据、客户引用）。"
+msgstr ""
+

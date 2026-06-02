@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/05_algorithm/multimedia.md:1 329f1394b57d4a5682397d671d8c0005
+msgid "多媒体基础能力"
+msgstr ""
+
+#: ../../source/05_algorithm/multimedia.md:3 1be28c96a8b547a1be63da9899d8c605
+msgid "系统通用"
+msgstr ""
+
+#: ../../source/05_algorithm/multimedia.md:5 26c00350b2b44596b1aa1498a65e26c0
+msgid "**音频**：TODO（音频采集、播放、Aup 通路说明）。"
+msgstr ""
+
+#: ../../source/05_algorithm/multimedia.md:6 d36f18e3589a44abb8e2f32f55b70f10
+msgid "**显示输出**：TODO（显示通路、分辨率、接口说明）。"
+msgstr ""
+
+#: ../../source/05_algorithm/multimedia.md:8 b8bb3cf469ec46f782e59353feaa0c53
+msgid "多媒体模块"
+msgstr ""
+
+#: ../../source/05_algorithm/multimedia.md:10 743aacf350c548c6967ce1c3a0aca975
+msgid "**ISP**：TODO（图像信号处理、调试工具链）。"
+msgstr ""
+
+#: ../../source/05_algorithm/multimedia.md:11 bee6f2a9f36d45bba80199a33a9f5bba
+msgid "**编解码**：TODO（H.264/H.265 编解码能力、JPEG 编解码）。"
+msgstr ""
+
+#: ../../source/05_algorithm/multimedia.md:14 35afcd8e05d3473cbc98c33c9ad3d4c8
+msgid "本页面向多媒体开发，相关 API 与 SDK 用法 TODO 补充。"
+msgstr ""
+

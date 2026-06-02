@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/07_thirdparty/index.md:1 b38ee55e2a424550b796858437593b80
+msgid "7. 第三方应用与生态合作"
+msgstr ""
+
+#: ../../source/07_thirdparty/index.md:3 523f7109c949437f9e98004278f724d0
+msgid "本章收录第三方 AI 应用软件与生态合作伙伴的成功案例。"
+msgstr ""
+
+#: ../../source/07_thirdparty/index.md:12 c50e896b8f9e4a15b1404e378c6aa600
+msgid "本章导读"
+msgstr ""
+
+#: ../../source/07_thirdparty/index.md:14 fd179547f9d342fa8c62631579084386
+msgid "**第三方 AI 应用软件**：合作伙伴提供的 AIBOX APP 与算法 SDK。"
+msgstr ""
+
+#: ../../source/07_thirdparty/index.md:15 e952ab09101d40b79ad9a41cca6ab758
+msgid "**成功案例展示**：客户落地案例分享（可选）。"
+msgstr ""
+

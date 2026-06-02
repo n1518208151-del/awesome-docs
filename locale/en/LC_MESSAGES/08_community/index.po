@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/08_community/index.md:1 6743a6c7b3264aedb36787f57efc10ee
+msgid "8. 社区与支持"
+msgstr ""
+
+#: ../../source/08_community/index.md:3 74d09c3dcff445aaa145e0a6c2d35e79
+msgid "加入社区、获取帮助、参与共创。"
+msgstr ""
+
+#: ../../source/08_community/index.md:14 74189ea65ca7490183689ef488e9ed3f
+msgid "本章导读"
+msgstr ""
+
+#: ../../source/08_community/index.md:16 2e8dbf96b7c64f1d964dc60b042ea45f
+msgid "**社区交友平台**：QQ 群、微信群、技术社区。"
+msgstr ""
+
+#: ../../source/08_community/index.md:17 3171d9b94c164c76babd9c3a536b835e
+msgid "**常见问题解答**：高频问题汇总。"
+msgstr ""
+
+#: ../../source/08_community/index.md:18 aa325ef6c5ec44899f4c2c93248244ab
+msgid "**文档共创指南**：如何提交 PR / 反馈。"
+msgstr ""
+
+#: ../../source/08_community/index.md:19 d78409b5b56441509f1f64fb16a48eca
+msgid "**版本更新记录**：文档迭代日志。"
+msgstr ""
+

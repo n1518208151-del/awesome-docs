@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/06_solutions/office_interaction.md:1
+#: 8d224a9e4ced4fa2a169fc2827a91c0d
+msgid "智慧办公与交互"
+msgstr ""
+
+#: ../../source/06_solutions/office_interaction.md:3
+#: e3fa595318fb49208394a0d679bf298d
+msgid "视讯系统"
+msgstr ""
+
+#: ../../source/06_solutions/office_interaction.md:5
+#: d5b5d068f2914dc589ba6ee9f6d27c83
+msgid "**KVM / IPKVM**：TODO（方案说明与链接）。"
+msgstr ""
+
+#: ../../source/06_solutions/office_interaction.md:7
+#: 2615c919c19445c4a296f12310672970
+msgid "AI 会议系统"
+msgstr ""
+
+#: ../../source/06_solutions/office_interaction.md:9
+#: e2bb505ab87a475abd05816098c8634b
+msgid "TODO（会议转录、降噪、纪要生成等方案说明，可结合 3D-Speaker-MT 示例）。"
+msgstr ""
+
+#: ../../source/06_solutions/office_interaction.md:11
+#: 416578b09f274d8297042235373ac0c9
+msgid "AI 翻译机"
+msgstr ""
+
+#: ../../source/06_solutions/office_interaction.md:13
+#: 4a124cccb33345fd89ffe805fb9eccb5
+msgid "TODO（多语种实时翻译方案说明与链接）。"
+msgstr ""
+

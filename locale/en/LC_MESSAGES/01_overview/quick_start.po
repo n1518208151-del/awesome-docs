@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/01_overview/quick_start.md:1 bad5b6445a0e4572a21a2eca9f402caa
+msgid "快速开始"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:3 398fa7d91dc04d27b17a914cfa4a50f1
+msgid "目标：从拿到开发板/算力卡到跑通第一个示例，最短路径。"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:5 ef3397ab7bc74010adfca09ad3a3d3a6
+msgid "5 分钟点亮开发板"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:7 192d2a4b13a745f9abb563ed921251a0
+msgid "TODO：补充开箱、供电、串口/网络连接、首次登录的图文指引。"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:9 cda8773530964600a4dba019c3dbe441
+msgid "确认开发板型号与固件版本（参见 [开发环境与工具链](../04_dev_environment/index.md)）。"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:10 afc9f115e7e040bab0a7340cd6b206b7
+msgid "连接电源与网络，确保开发板可访问互联网。"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:11 c80f99a53cc54b4390e0c5c8eb7da220
+msgid "通过串口或 SSH 登录系统。"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:13 6171c12ee3924aaf97a4bc2f4fb875c6
+msgid "环境搭建与 Hello World"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:15 ed9c8502c8d84fea9b4d6d12005bf563
+msgid "完整的系统软件环境、NPU/AXCL 依赖安装请参见："
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:17 1b434e6cbcb94f0991dcb9aa3c177a99
+msgid "[基础软件环境](../04_dev_environment/base_software.md)"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:19 bda861deabce4ace961eb0a58c39079f
+msgid "跑通第一个 AI 示例，请参见："
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:21 d2951d665ca647e1b995f80b61a36762
+msgid "[AI 算法参考实现](../05_algorithm/index.md)"
+msgstr ""
+
+#: ../../source/01_overview/quick_start.md:24 21efe85534914709be8ba8ac3fc772f7
+msgid "不同硬件形态（主控开发板 / 算力卡）的环境准备略有差异，按对应章节操作即可。"
+msgstr ""
+

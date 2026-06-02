@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/08_community/community.md:1 75f62439a2b74d5a95b07e7fa72adfab
+msgid "社区交友平台"
+msgstr ""
+
+#: ../../source/08_community/community.md:3 28bbda3dd5784d80b4f6b2918ed2e862
+msgid "技术交流群"
+msgstr ""
+
+#: ../../source/08_community/community.md:5 96fbfedf74d94945a1c654eb2eb4dd59
+msgid "**QQ 群**：139953715（入群验证请填写：`一指禅文档`，方便管理员通过）"
+msgstr ""
+
+#: ../../source/08_community/community.md:6 6390a5d8c87c4d58a71fe4af2f45997e
+msgid "**微信**：爱芯开发者社区技术交流群"
+msgstr ""
+
+#: ../../source/08_community/community.md:8 5b05ee4dc5da41c4952aabb937a8e5e5
+msgid "技术社区专区"
+msgstr ""
+
+#: ../../source/08_community/community.md:10 2d08e1af453c4b2e92786a73e45c6c1a
+msgid "[易百纳 - 爱芯专区](https://www.ebaina.com/channels/22)"
+msgstr ""
+
+#: ../../source/08_community/community.md:11 73750d4273d94384b41bc3f076f4ac67
+msgid "[一牛网 - 爱芯专区](https://bbs.16rd.com/forum-751-1.html)"
+msgstr ""
+
+#: ../../source/08_community/community.md:12 9909f483a1a24604a671992740e9dd83
+msgid "[MaixHub - 爱芯专区](https://maixhub.com/discussion/axera-pi)"
+msgstr ""
+
+#: ../../source/08_community/community.md:14 2c050b87a4264dcaa1cf6417d56efc03
+msgid "内容平台"
+msgstr ""
+
+#: ../../source/08_community/community.md:16 b839d9dcbbe14ed2b03159a7be4f8545
+msgid ""
+"**知乎**：[圈圈虫的知乎](https://www.zhihu.com/people/tang-qi-14-37/posts)，大量 "
+"AX650 系列部署技术软文。"
+msgstr ""
+
+#: ../../source/08_community/community.md:17 63da0d001752481f88ce550ce7738ef7
+msgid "[基于 AX650 部署 YOLO11](https://zhuanlan.zhihu.com/p/772269394)"
+msgstr ""
+
+#: ../../source/08_community/community.md:18 9cd9d5ec9b6b4c1f8abf515cf996dd9f
+msgid "[基于 AX650 部署 YOLOWorld](https://zhuanlan.zhihu.com/p/721856217)"
+msgstr ""
+
+#: ../../source/08_community/community.md:19 a3eb93b8fd454996b9295daf90252ea3
+msgid "[基于 AX650 部署 YOLOv8](https://zhuanlan.zhihu.com/p/683050593)"
+msgstr ""
+
+#: ../../source/08_community/community.md:20 7005a231d01c4d97a77f20be4393e562
+msgid "**Bilibili**：[AXERA 官方空间](https://space.bilibili.com/1960137841)"
+msgstr ""
+
+#: ../../source/08_community/community.md:22 36aa1f2e3c264c03bc3cbac5872b35a3
+msgid "开发板购买渠道（淘宝）"
+msgstr ""
+
+#: ../../source/08_community/community.md:24 03e61124d5a14c53a7957e9115aed151
+msgid "主控开发板："
+msgstr ""
+
+#: ../../source/08_community/community.md:25 9cb26e3dc31a4472abcbd76d8917f3b1
+msgid "[M4N-DOCK(爱芯派Pro)](https://e.tb.cn/h.SZeJYWYWLsd7Qzw?tk=0lRT4JCc06U)"
+msgstr ""
+
+#: ../../source/08_community/community.md:26 bfb54a247c5245c09a889a582ea935a1
+msgid "算力卡："
+msgstr ""
+
+#: ../../source/08_community/community.md:27 1ba3d5dcb12748b29d61d19b3063bc46
+msgid ""
+"[M.2 2280 (瑞莎 Radxa "
+"AX-M1)](https://e.tb.cn/h.7w0II1fMRECmBuE?tk=3ucMUlKbv57)"
+msgstr ""
+
+#: ../../source/08_community/community.md:28 43c0a128665b4358b76e0c499ff6e3e4
+msgid ""
+"[M.2 2242 (M5Stack "
+"LLM-8850)](https://e.tb.cn/h.7vb7ahnI0EENE3h?tk=dUigUlKXb3g)"
+msgstr ""
+
+#: ../../source/08_community/community.md:29 7d82234c519d45ffbb3b95c61b67b6ec
+msgid "[Raspberry Pi AI HAT](https://e.tb.cn/h.S0YuDIj4mwJc8RI?tk=JvjY4JCYZnX)"
+msgstr ""
+

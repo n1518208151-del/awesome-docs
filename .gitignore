@@ -5,3 +5,6 @@ public
 build/
 .vscode/
 pre_process.log
+
+
+*.mo

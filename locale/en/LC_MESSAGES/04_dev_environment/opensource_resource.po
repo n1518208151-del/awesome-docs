@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/04_dev_environment/opensource_resource.md:1
+#: b1d1a295338f4229bcb77022ae895e12
+msgid "开源社区资源"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:3
+#: 8f8a23ff9a66476ba8f23ab3f440447a
+msgid "GitHub Organization"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:5
+#: ab08048cdc734554ab5a339ebccc4915
+msgid "**官方组织**："
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:6
+#: ab328ed811a34a959ac33c99ac75b000
+msgid "[AXERA-TECH (GitHub)](https://github.com/AXERA-TECH/)"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:7
+#: 86255db6a096453ca72f8396717330af
+msgid "[国内镜像 Gitee (不定期更新)](https://gitee.com/axera-opensource)"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:8
+#: 005f83306a4e4069af05eff8c3b935c0
+msgid "**社区个人仓库**：TODO（收录社区开发者的优质仓库）"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:10
+#: dce17164af9e40ff8f7cc9b3d21d9e1c
+msgid "模型仓库"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:12
+#: ab60b1f5b0a149069ceaa2c962724207
+msgid "官方预编译模型主页，可直接下载已适配 AXERA 芯片的模型："
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:14
+#: 2d33ce8694ac41e89c88f643abb86a18
+msgid "**Huggingface**："
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:15
+#: 4a0c1884c64c4c7b9a0172e1ed2a535d
+msgid "[外网](https://huggingface.co/AXERA-TECH)"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:16
+#: 8f6c7348c17a48c3876941ad21cb347f
+msgid "[国内镜像](https://hf-mirror.com/AXERA-TECH)"
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:17
+#: df662106d89c4fda91287f782a0a1667
+msgid "**Modelscope**："
+msgstr ""
+
+#: ../../source/04_dev_environment/opensource_resource.md:18
+#: 33e44817c1ad452c83f9726a18c73763
+msgid "[AXERA-TECH 主页](https://www.modelscope.cn/organization/AXERA-TECH)"
+msgstr ""
+

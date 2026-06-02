@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/03_hardware/milian.md:1 47f54ed1261942e895f8a666f16f2cb3
+msgid "蜜连科技"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:3 d7ebd94289b44f13893e753383ad94fb
+msgid "公司简介"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:5 3323f3df4f8d4853818870fc9839fd04
+msgid "TODO（由 蜜连科技 维护）：补充公司简介、官网、生态定位。"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:7 9f33a779d54248ed906ce3ff09189baf
+msgid "开发套件 (AX8850N 开发板)"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:9 82fd83870aba47cba7e708ad0210112a
+msgid "产品亮点与规格"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:11 21f0674001a14ac08b189c584c5ccb04
+msgid "TODO：核心规格（芯片 / DDR / 存储 / 接口 / 形态 / 功耗）。"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:13 03912034601448dba438123db40138a0
+msgid "适用场景"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:15 50befd2238164c54b6b53bdffbb1c4bc
+msgid "TODO：典型应用场景。"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:17 26af54a480e54077bed308032abb9463
+msgid "资源 / 购买链接"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:19 4bc68d9fa7ea4d34b7fbaf5c984fa4cb
+msgid "资料文档：TODO"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:20 53dc5f54533042f48365908788cdc75c
+msgid "购买链接：TODO"
+msgstr ""
+
+#: ../../source/03_hardware/milian.md:23 bfdd1f8dc5764279925a0548be06de83
+msgid "本页由 蜜连科技 分权维护，请确保用户无需原厂介入即可独立完成性能评估。"
+msgstr ""
+

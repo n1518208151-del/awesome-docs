@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/08_community/changelog.md:1 0c9b27cfc3544fe5843d391d5a14da02
+msgid "版本更新记录"
+msgstr ""
+
+#: ../../source/08_community/changelog.md:3 9c6c2b6f713841b79e6ee59910fd9ce0
+msgid "文档迭代日志，记录重要内容更新。"
+msgstr ""
+
+#: ../../source/08_community/changelog.md:5 3abe1241f9d742cca5b4f378e5112f0a
+msgid "2025"
+msgstr ""
+
+#: ../../source/08_community/changelog.md:7 16da15d079e142189d7a7909dc891475
+msgid "**20251114**：增加算力卡 axcl x86 平台多芯级联大模型演示示例。"
+msgstr ""
+
+#: ../../source/08_community/changelog.md:8 8f3d313366804de9bc3d01551bec6ef0
+msgid "**20251028**：增加算力卡 axcl aarch64 平台大模型演示示例。"
+msgstr ""
+
+#: ../../source/08_community/changelog.md:9 a4babf7ad67245f59949f82e7fec0e4c
+msgid "**20251009**：增加算力卡 axcl x86 平台大模型演示示例。"
+msgstr ""
+
+#: ../../source/08_community/changelog.md:10 3ccd5e02126f4a6d9c590aee4ea85ae3
+msgid ""
+"**20250916**：`05_algorithm` Audio Models 增加 3D-Speaker-"
+"MT.axera（会议音频转录）解决方案演示示例。"
+msgstr ""
+
+#: ../../source/08_community/changelog.md:13 168788bfa749487dabbe5fbd5dc126d1
+msgid "文档已于 2025 年完成 v2.0 重构：从单一 AX650N NPU 文档升级为覆盖全产品线的开放共创文档中心。"
+msgstr ""
+

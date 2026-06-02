@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/05_algorithm/ai_audio.md:1 a5dbd209b0014cf486f2a8646202bd00
+msgid "Audio 类算法"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:3 77d9ad25db1e4269952e0e06041e37a3
+msgid "语音算法参考实现。完整上板示例见 [示例展示](samples_board.md)。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:5 65437e5745d44d859ea362fc8387defc
+msgid "ASR / TTS"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:7 95855abbfdaf4ff6b83cd77b68ccffde
+msgid "基于 [Sherpa-ONNX AXERA 版本](https://github.com/AXERA-TECH) 实现。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:9 cafadd76f1054a3c90225340a8cb8b99
+msgid "**ASR（语音识别）**：SenseVoice、Whisper、3D-Speaker-MT（会议转录）。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:10 2bef4012916c47b19e1036ae2acabad2
+msgid "上板示例：[SenseVoice / Whisper / 3D-Speaker](samples_board.md)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:11 af0135672d8e4e178d5d0742ad05605e
+msgid "**TTS（语音合成）**：Kokoro（中/英/日多语种）。"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:12 4b2569149db5426287be0a427b4877a5
+msgid "上板示例：[Kokoro](samples_board.md)"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:14 78f1910b5ce8442390706d51590ca1c8
+msgid "降噪"
+msgstr ""
+
+#: ../../source/05_algorithm/ai_audio.md:16 078b05bb9805400ebb208cf24db5dc55
+msgid "**AX 开源降噪方案**：TODO（补充方案说明与示例链接）。"
+msgstr ""
+

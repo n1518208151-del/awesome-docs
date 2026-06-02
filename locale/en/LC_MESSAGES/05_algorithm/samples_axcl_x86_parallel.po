@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:1
+#: f2f9fa8262c8489f92735f546c5f30f9
+msgid "示例展示（算力卡 x86 平台，多芯级联）"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:3
+#: c760159c3ffa49bf88b81ead1596b361
+msgid "Pulsar2"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:4
+#: effa87378f8344dda10c4e95740ceb4b
+msgid ""
+"Pulsar2 由 爱芯元智 自主研发 的 all-in-one 新一代神经网络编译器, 即 转换、 量化、 编译、 异构 四合一, "
+"实现深度学习神经网络模型 快速、 高效 的部署需求. 针对新一代 AX6、M7、M5 "
+"系列芯片（AX615、AX630C、AX637、AX620Q、AX650A、AX650N、M76H、M57H 等）特性进行了深度定制优化, "
+"充分发挥片上异构计算单元(CPU+NPU)算力, 提升神经网络模型的产品部署效率."
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:6
+#: 8271c6be89f44374a9976bb204715605
+msgid ""
+"工具链下载地址: [Pulsar2](https://huggingface.co/AXERA-TECH/Pulsar2/tree/main) "
+"相关使用文档：[Pulsar2 Doc](https://pulsar2-docs.readthedocs.io/zh-"
+"cn/latest/pulsar2/introduction.html)"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:9
+#: 3d47bd4ccbdb4382b1e4765d6ee8058b
+msgid "Pulsar2提供多芯级联模型编译功能，当前支持Qwen系列LLM编译，以Qwen2.5-7B-Instruct为例 编译命令"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:23
+#: 1bd63cef17b4442e9a88ae688a575e54
+msgid "LLM"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:24
+#: b31925316a83445395ad091c0f1c7018
+msgid "Qwen2.5-7B-Instruct-TensorParallel"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:42
+#: 0cb71c48a3b042d0ba4f6c067efcba4e
+msgid "性能对比"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md:43
+#: c42d9b052857402d998cbe534c4dab43
+msgid "以Qwen2.5-7B-Instruct为例，统计对比axcl-x86平台下单卡与多芯级联的相关性能"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 74c8ed6187b84de1af8c8bdd94daba59
+msgid "模型"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: c2073ad168de4ac6911f6c5d5b8d75ae
+msgid "TTFT(245token)"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 36ca373799814c20a03f2145bf7c15d4
+msgid "TPS(tokens/s)"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 2bf362a579694ee0abff219d286bcc58
+msgid "DDR占用"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: cdfc6483a9d64d6ba034aa3b56767a49
+msgid "flash占用"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: c89794d0eed5413491ee3c7b04b17425
+msgid "Qwen2.5-7B-Instruct-w8a16-parallel"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: e7f0e4fe8cea448b894ddb0cf0c82a72
+msgid "2184.62ms"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: b9494692a40a45e39bf656d617fed28a
+msgid "5.93"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 887e1324041c4bc580ac2c2a6051c384
+msgid "11.1GB"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: d368716385fb48e6863e11ca3adfca95
+msgid "9.5GB"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 294a24fbb9df4f62b9e4787db4c187f8
+msgid "Qwen2.5-7B-Instruct-w4a16-parallel"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: d75694141100479a8e364d7866ce9373
+msgid "2071.71ms"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 623b99e273fc47d3a6aa1bf38d3744e2
+msgid "7.82"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 95a7c6bbc4684aa4a32faf030fe0a7ac
+msgid "7.8GB"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 3ee03b576d794d159f744fcddd9ffed9
+msgid "6.3GB"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: f0cbff63e8364d8db2effb1d29c2db08
+msgid "Qwen2.5-7B-Instruct-w4a16"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: d2ea54e20c3f4ff09c14b318d7f65ebb
+msgid "2747.23ms"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 310fc60dd3344a78938ebb7c8b432b4a
+msgid "3.97"
+msgstr ""
+
+#: ../../source/05_algorithm/samples_axcl_x86_parallel.md
+#: 6609fdd161fb4968b510ae83eda46d1f c1f8378eec02474b839311bfe8384c19
+msgid "5.7GB"
+msgstr ""
+

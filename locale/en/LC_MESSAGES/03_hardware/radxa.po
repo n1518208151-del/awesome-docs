@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/03_hardware/radxa.md:1 0dcb1e120d7f43b8aa6d1fb00e1c48b8
+msgid "瑞莎科技"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:3 39354463baf44740924a3860fb3eb701
+msgid "公司简介"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:5 07f3bca23f8b4cd680e91b55de0c82db
+msgid "TODO（由 瑞莎科技 维护）：补充公司简介、官网、生态定位。"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:7 eaba591eb1eb4c158a29f98e7a916214
+msgid "AX-M1 (AX8850 M.2 算力卡)"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:9 21b04e2e550447288e8da3f5f4b4d139
+msgid "产品亮点与规格"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:11 1b2cdca1afbe41628117137417c2eab2
+msgid "TODO：核心规格（芯片 / DDR / 存储 / 接口 / 形态 / 功耗）。"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:13 9774d3780c4b4d7f8d93bac7de5f7505
+msgid "适用场景"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:15 6089b977b7cd4517820d4a94603d96ac
+msgid "TODO：典型应用场景。"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:17 f8f1540649d44c95905f4258f96d00d7
+msgid "资源 / 购买链接"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:19 0e2fab566ab6432a8493627ab5ebd35b
+msgid "资料文档：TODO"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:20 f6f5a176197a49a3b9216b5a05053f1f
+msgid "购买链接：TODO"
+msgstr ""
+
+#: ../../source/03_hardware/radxa.md:23 421fa9ce60b74abe914ca65bbef72e93
+msgid "本页由 瑞莎科技 分权维护，请确保用户无需原厂介入即可独立完成性能评估。"
+msgstr ""
+

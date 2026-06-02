@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/03_hardware/m5stack.md:1 86f37b644984405b9f6370f1ccaefce5
+msgid "M5Stack"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:3 8b27b02ac0e041f082309c551b045678
+msgid "公司简介"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:5 44b5d6922df54b2c9b4d6f805ebeadbb
+msgid "TODO（由 M5Stack 维护）：补充公司简介、官网、生态定位。"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:7 4c5ee14675724f84a377e236a940ded8
+msgid "AI Pyramid Pro (AX8850 开发板)"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:9 ../../source/03_hardware/m5stack.md:24
+#: 5cbf6922103e4e7cb7fa10f28031a69a 91a1c82a299d4059bc8355998bb02722
+msgid "产品亮点与规格"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:11
+#: ../../source/03_hardware/m5stack.md:26 97d27715ceaa4d2b908d876bf20550e4
+#: ffcc446d8540430893bae0702003191a
+msgid "TODO：核心规格（芯片 / DDR / 存储 / 接口 / 形态 / 功耗）。"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:13
+#: ../../source/03_hardware/m5stack.md:28 370822ac183d4281a23f97613b80c385
+#: 563adb85ecda4b4ab802219fe32a8d5a
+msgid "适用场景"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:15
+#: ../../source/03_hardware/m5stack.md:30 914b62e457424dfdb5fece13a4a7d35d
+#: fed12293bd8d4cbe96ee4a6678f9836c
+msgid "TODO：典型应用场景。"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:17
+#: ../../source/03_hardware/m5stack.md:32 acd5e7cf717d4533bfa43ec7ff8a1c73
+#: d925fbbc2f1644208f683f60a6aac044
+msgid "资源 / 购买链接"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:19
+#: ../../source/03_hardware/m5stack.md:34 32301245d34d4cde81d8485d6c009c11
+#: 4c1b0eea8d0448a0933734b48ee7d8ec
+msgid "资料文档：TODO"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:20
+#: ../../source/03_hardware/m5stack.md:35 95450d8e1c6f4068b8fcbb53eaac84d7
+#: 9f06acbe8a024da4b21127f157223692
+msgid "购买链接：TODO"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:22 c7ce99db8ddb4f72a68a3b6d82f5ed88
+msgid "LLM8850 (AX8850 M.2 算力卡)"
+msgstr ""
+
+#: ../../source/03_hardware/m5stack.md:38 7690238367e54644882213f0085ecdd1
+msgid "本页由 M5Stack 分权维护，请确保用户无需原厂介入即可独立完成性能评估。"
+msgstr ""
+

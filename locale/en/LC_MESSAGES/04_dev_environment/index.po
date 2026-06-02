@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/04_dev_environment/index.md:1 6b3d5794dc964cfaac998dc0ae11188e
+msgid "4. 开发环境与工具链"
+msgstr ""
+
+#: ../../source/04_dev_environment/index.md:3 2db9191d18e5459eb10b60e34926f3e6
+msgid "本章指导你完成系统软件环境搭建，并介绍 NPU 工具链、AXCL 开发库与开源社区资源。"
+msgstr ""
+
+#: ../../source/04_dev_environment/index.md:13 4c10b0d22e144447b6c0a02d627ea6cb
+msgid "本章导读"
+msgstr ""
+
+#: ../../source/04_dev_environment/index.md:15 a4b66f92f19a4e3fb8d8ac85f2c3b3bd
+msgid "**基础软件环境**：系统相关操作（版本/带宽/CMM）、NPU 基础操作、依赖安装。"
+msgstr ""
+
+#: ../../source/04_dev_environment/index.md:16 967a4a48cdcd48cab0fadfb93ad8873f
+msgid "**核心工具链**：NPU 工具链 (Pulsar2)、AXCL 开发库。"
+msgstr ""
+
+#: ../../source/04_dev_environment/index.md:17 4f9a0de526bb46dbb36993f4282fc48f
+msgid "**开源社区资源**：GitHub 组织、模型仓库 (Huggingface/Modelscope)。"
+msgstr ""
+

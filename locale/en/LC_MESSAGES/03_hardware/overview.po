@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AXERA Semiconductor Co., Ltd.
+# This file is distributed under the same license as the AXERA 产品文档中心
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AXERA 产品文档中心 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 15:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/03_hardware/overview.md:1 84d80b5a5e4648d1ab358c4ffa8b7fd1
+msgid "硬件生态概览"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md:3 fcaa98a6ba7e4a08905fdf1c8cd241a1
+msgid "选型速查表"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md:5 34e6661037a049a38ba6db96bdc16adf
+msgid "按芯片型号 / 产品形态快速筛选生态硬件。详细规格见各厂商页面。"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md:7 1b962c6955b148839ba357beb35d3d51
+msgid "主控开发板"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 08c1aff5e4bf4130bc866795fb865f28
+#: b506594c15454d319d87fb71a46a8a50
+msgid "名称"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 0d91f0c2702c4a7fa79f006ec063aaf1
+msgid "配置 (DDR/eMMC)"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md ea7cd5dc83d54dff95faa4e0797d5103
+msgid "主控芯片"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 120dd466fd114fab89b22e9f4339f31c
+#: 6e8fff3531854c84b1c5dbac9e5a50f7
+msgid "厂商"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 22a46cba190b4199a7bd5eb507788929
+msgid "AX650N DEMO Board"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 7cccabe4779642758927365e1fc0cd9b
+msgid "16GB/64GB"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 9636ebdbe1af47ce934ef47d267c2894
+msgid "AX650N"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 1182bf256fbc4911bfb1321d1fc47727
+msgid "AXERA"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 395d6f7a786c4c83b20971a8b9f16e6d
+msgid "M4N-Dock(爱芯派Pro)"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 514318df449f4c4ab1b34dd9f04713c9
+#: d4914feadb394cb5903eb441275441ad
+msgid "8GB/32GB"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 651ec3ef50e8441bb9083920664be98d
+#: 81ffcb54c78545b0894c5925ef2c7acf 8d91b3b7be7c4f159b33fe5c4c320dee
+#: 9e204b44ba5345c5a03ea02ae60865d4 b4fa3790a4444da1b0003ad58d52179e
+#: c12ec380ea3a46a7a7bccf32b5d8b432 e714d28d75e74b53ae9aa0d46c55ec3d
+msgid "AX8850"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 46cc28acc64149abbbc0f2e30f354053
+#: 59afc81c1bc842c89eb7d508e02b01c8
+msgid "Sipeed"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md ddcd3f299257484aa7d017b05876dca6
+msgid "AI Pyramid"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md e438043660fa412fb490a5bf392bd18d
+msgid "4GB/32GB"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 4ba168f23cc3493f991444e5cd7de17e
+#: 734d9b0f550c421c95810aff2fe12d69 9fe500caeada463ebaa3fc8bebe5109e
+msgid "M5Stack"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 4ceb6157874341f1b43c528adc822017
+msgid "AI Pyramid Pro"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 9c46318e809d4cc394e93b8132de79dc
+msgid "M4N DOCK"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 3f1c470eabd44d69b581faea4dcb184b
+#: 42bbf7da693a487b901e9383b8dd93a3 50199744f95a4ea4bb9df233b49709da
+#: f5c2596ac9364306a285a14b8b81ec75
+msgid "TODO"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 872eda4b472942249d1709b537aaccf9
+msgid "开发套件"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 50aacdcd6d4943f18bace78e73f08c6e
+#: ecf41c977a0c48338d9cd7dea8c00973
+msgid "AX8850N"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md cf2fe6f8278a467982bebe405a910a6c
+msgid "蜜连科技"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md b8e1cdca98084147b7633e860fb05b38
+#: c3882065737b46d093318deaf38cd9f6
+msgid "AIBOX"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 369ed6a73b3e45728fbf62451ed023e1
+msgid "以悦科技"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md ebb7d1493db140daa9928604ea6038bb
+msgid "鲸算智能"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md:20 6f1e51108a2a42ab8fd2130eff2a0a3f
+msgid "算力卡平台"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 8e0d2fc2836b4d1e9fb57c4e34886c9c
+msgid "配置 (GB)"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 4a67cbf4ae734a2b8df8de0fd5c36fd5
+msgid "算力卡芯片"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 9c4786953fe442e0b7cb48066b0b0c80
+msgid "LLM8850"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 3f82c39552d44af38171da5c8807a28a
+#: 836dd8303ee9486a9e5e95b8aa799bf7
+msgid "8"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 069c0c07aa7f43288ce2a99ca390e618
+msgid "AX-M1"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 5226963b06064bdcb219e3d05ac1f3aa
+msgid "瑞莎科技"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 05ecc83347dd40819c128d223f32e21d
+msgid "M.2280 卡"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md d22a6bc72f6d49feb5bcbe188183002e
+msgid "8/16"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 8cb2bacac660405fb51999e0b2cd369e
+msgid "AX650N / AX8850"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 28098d194131471fbcdd4a0d342d2f05
+msgid "以悦科技 / 鲸算智能"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md:28 5b89987153714081b0596df0d2c5847a
+msgid "算力卡已适配的主控架构："
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 4b57cfe232a341f6b839deb8fdbd8b82
+msgid "架构"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md a23291091dc64016b15b18cff8fc783b
+msgid "型号"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 2ddae6370a884722b2c8158b63e371ba
+msgid "X86"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 29ec9182dbdf419db3d05751e337ea98
+msgid "Intel、AMD"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md a58f32e561694f4693a7025baf08df97
+msgid "aarch64"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md 6c9f8a6073f14edfadca4a06c272d232
+msgid "Raspberry Pi5、Rockchip(RK3588/RK3576/RK3568)、AllWinner(A733)、NXP、Xilinx"
+msgstr ""
+
+#: ../../source/03_hardware/overview.md:36 1d721b6423e44cf9aefefc52b08dc9c4
+msgid "表中 TODO 项由对应厂商在各自页面补充后同步更新。"
+msgstr ""
+
