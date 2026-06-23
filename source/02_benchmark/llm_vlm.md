@@ -112,11 +112,7 @@
 | PaddleOCR-VL-1.5 | W4A16 | 576x768 | 44.6 | 1685.6 | 361.8 | - | - | 5.0 |
 
 ```{note}
-Qwen3 系列为纯文本模型，Qwen3.5 系列以多模态形式发布，故分列于 LLM 与 VLM。MiniCPM-V-4.6 以 axllm 运行时部署，其 CMM/Flash 为运行时增量与占用，统计方式与 Pulsar2 转换流程略有差异。
-
-TTFT 各模型按不同 prefill token 数统计：Qwen3-VL / Qwen3.5 为 168 tokens，Qwen2.5-VL-3B 为 384 tokens，Qwen2.5-VL-7B 为 320 tokens，不同模型间 TTFT 不可直接横向比较。
-
-Qwen2.5-VL 官方列名为 DDR，与 CMM 同义；Qwen3-VL-8B 内存单位官方为 GB（其余为 GiB），均按官方原值保留。
+TTFT 各模型按不同 prefill token 数统计（Qwen3-VL / Qwen3.5 为 168 tokens，Qwen2.5-VL-3B 为 384 tokens，Qwen2.5-VL-7B 为 320 tokens），不同模型间 TTFT 不可直接横向比较。
 ```
 
 ## AX630C
