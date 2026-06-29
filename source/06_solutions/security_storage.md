@@ -1,13 +1,19 @@
 # 智慧安防与存储
 
-## AI NVR
+本页收录智慧安防与存储方向的方案资料，包括 AI NVR、AI 相册和 AIBOX 通用方案。
 
-- **Fright NVR**（主控 / 协处理方案）：待补充（方案说明、架构图、部署链接）。
+```{toctree}
+:maxdepth: 1
 
-## AI 相册
+security_storage/ai_nvr
+security_storage/ai_album
+security_storage/aibox_common
+```
 
-- **Immich**：待补充（基于 AXERA 算力卡的相册智能整理方案与部署指引）。
+## 方案概览
 
-## AIBOX 通用方案
-
-- 待补充（AIBOX 在安防场景下的通用方案说明与链接）。
+| 方案 | 简介 |
+| --- | --- |
+| AI NVR | 基于 Frigate NVR、AXERA NPU、视频编解码和本地视觉语言模型能力，构建本地 AI 监控方案。 |
+| AI 相册 | 面向本地相册管理、图片智能检索、人物/场景识别等场景的智能相册方案。 |
+| AIBOX 通用方案 | 面向安防盒子、边缘 AI 网关和多路视频分析场景的通用方案。 |
