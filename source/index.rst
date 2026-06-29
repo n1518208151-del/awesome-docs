@@ -7,7 +7,7 @@ AXERA 产品文档中心
 
 .. toctree::
   :maxdepth: 2
-  :numbered:
+  :numbered: 3
   :caption: 目录
   :name: Contents
 
