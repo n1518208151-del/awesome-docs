@@ -71,7 +71,7 @@ AX650N 是一颗专为边缘 AI 推理设计的高性能 SoC，集成 **八核 C
 对录制的文件进行播放：./sample_stereo_depth -i ./stereo_depth_dump_sing
 le_sn19555858_1780899407198779745.mcap --mcap-stream yuyv
 
-![Stereo_depth demo图](../../_static/06_solutions/stereo_07.MP4)
+![Stereo_depth demo图](../../_static/06_solutions/stereo_07.gif)
 
 上述的播放是使用yuyv方式播放，能通过键盘的左右键(<>)进行单帧播放切换，查看数据集内每一帧在新算法下的效果。
 
@@ -83,7 +83,7 @@ le_sn19555858_1780899407198779745.mcap --mcap-stream yuyv
 #### 2.4.2 yuyv数据播放
 yuyv数据源帧回放输入演示如下：
 
-  ![Stereo_depth demo图](../../_static/06_solutions/stereo_08.webm)
+  ![Stereo_depth demo图](../../_static/06_solutions/stereo_08.gif)
   
 #### 2.4.3 HDMI播放
 **支持HDMI 四画面直出**（无foxglove）
@@ -111,7 +111,7 @@ yuyv数据源帧回放输入演示如下：
 ![Stereo_depth demo图](../../_static/06_solutions/stereo_11.png)
 灌图输出场景下也会发布新计算好的roi-z-avg信息，可以查看每一帧的roi数据。
 
-![Stereo_depth demo图](../../_static/06_solutions/stereo_12.MP4)
+![Stereo_depth demo图](../../_static/06_solutions/stereo_12.gif)
 
 ### 3.3. 🔍 全链路开发排障工具链
 - **键盘逐帧控制**：MCAP 回放模式下，左右方向键精确选帧，一帧一帧检查结果
