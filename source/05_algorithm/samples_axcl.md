@@ -4,7 +4,6 @@
 
 - **中文文档**：[AXCL 使用手册](https://axcl-docs.readthedocs.io/zh-cn/latest/)
 - **英文文档**：[AXCL Documentation](https://axcl-docs-en.readthedocs.io/en/latest/)
-- **源码仓库**：[GitHub](https://github.com/AXERA-TECH/axcl-docs)
 
 文档涵盖以下内容：
 
@@ -23,5 +22,5 @@
 - Windows 驱动安装（Beta）
 
 ```{note}
-算力卡支持 x86 和 aarch64 两种 Host 平台，具体差异与编译方法见 AXCL 文档的 SDK 编译章节。多芯级联（TensorParallel）的使用方法也在 AXCL 文档中说明。
+算力卡支持 x86 和 aarch64 两种 Host 平台，具体差异与编译方法见 AXCL 文档的 SDK 编译章节。
 ```
