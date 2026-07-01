@@ -1,6 +1,6 @@
 # awesome-docs 使用手册
 
-[**在线文档预览（latest）**](https://awesome-npu-docs.readthedocs.io/zh-cn/latest/index.html#)
+[**在线文档预览（latest）**](https://awesome-edge-docs.readthedocs.io/zh-cn/latest/index.html)
 
 [**DEV 在线预览**](https://axera-tech.github.io/awesome-docs/)（由 `dev` 分支自动部署到 GitHub Pages）
 
