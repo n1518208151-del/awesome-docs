@@ -64,3 +64,5 @@ mermaid_version = 'latest'
 # -- myst_parser -------------------------------------------------------------
 myst_enable_extensions = ['colon_fence', 'deflist', 'linkify', 'tasklist']
 myst_heading_anchors = 3
+# 让 ```mermaid 围栏同时在 GitHub 预览与 Sphinx 构建中渲染为流程图。
+myst_fence_as_directive = ['mermaid']

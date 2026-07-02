@@ -11,7 +11,7 @@
 
 从上到下分为四层：应用/算法插件 → AX-Pipeline 编排 → AX-Video SDK 能力封装 → 芯片底座（MSP / AXCL）。
 
-```{mermaid}
+```mermaid
 flowchart TB
     APP["应用 / 算法插件<br/>YOLOv5·v8 / Helmet / 自定义"]
 
@@ -55,11 +55,9 @@ flowchart TB
 
 **主要能力**
 
-- 系统初始化 / 反初始化
-- 自定义图像类 `AxImage`
 - 视频解码 / 视频编码
 - JPEG 编解码
-- 图像处理：`copy` / `crop` / `resize` / `cropresize` / `csc`
+- 图像处理：`crop` / `resize` / `cropresize` / `csc`
 - Pipeline：`demux` / `mux` / `frame output` / `OSD`
 
 **芯片支持**
@@ -127,7 +125,7 @@ demux → decode → (npu + osd + tracking) → N × (encode → mux)
 
 **架构**
 
-```{mermaid}
+```mermaid
 flowchart LR
     subgraph BUILD["建库 · 离线"]
         direction LR
@@ -163,7 +161,7 @@ flowchart LR
 
 **架构**
 
-```{mermaid}
+```mermaid
 flowchart LR
     IN["输入文本 + 目标语言"] --> TOK["Tokenizer"] --> LLM["翻译大模型<br/>HY-MT 1.8B INT4 · NPU"] --> OUT["译文"]
     MIC["麦克风语音<br/>Web 实时"] -.-> ASR["VAD / ASR<br/>3D-Speaker-MT"] -.-> IN
