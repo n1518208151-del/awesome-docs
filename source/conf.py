@@ -59,7 +59,13 @@ source_suffix = ['.rst', '.md']
 
 # -- mermaid -----------------------------------------------------------------
 mermaid_output_format = 'raw'
-mermaid_version = 'latest'
+# 同源加载本仓库内置的 mermaid（source/_static/mermaid/），不依赖 cdn.jsdelivr.net
+# （该 CDN 在中国大陆常不可达，会导致流程图无法渲染）。
+mermaid_version = '11.12.1'
+mermaid_use_local = 'mermaid/mermaid.esm.min.mjs'
+# raw 模式下扩展会额外加载 d3（全屏/缩放用），同样改为同源本地文件。
+d3_version = '7.9.0'
+d3_use_local = 'mermaid/d3.min.js'
 
 # -- myst_parser -------------------------------------------------------------
 myst_enable_extensions = ['colon_fence', 'deflist', 'linkify', 'tasklist']
