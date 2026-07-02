@@ -106,9 +106,67 @@ demux → decode → (npu + osd + tracking) → N × (encode → mux)
 
 ## 业务逻辑组件
 
-- **文搜图**：TODO（基于 CLIP 类模型的图文检索组件）。
-- **多国语言翻译**：TODO（翻译组件说明与链接）。
+在视频 / 流媒体能力之上，AXERA 还提供可直接复用的业务逻辑 SDK，把常见的多模态应用（图文检索、机器翻译）封装成简单的 C 接口 + Python 绑定 + Web Demo，推理全部跑在 NPU 上。
 
-```{note}
-业务逻辑组件（文搜图 / 多国语言翻译）内容待补充。
+### 文搜图（libclip.axera）
+
+基于 CLIP 的图文检索 SDK：用自然语言描述去检索图片库，也支持以图搜图。文本编码器与图像编码器都运行在 Axera NPU 上；图像特征预先算好并存入 LevelDB，查询时只需编码文本再与库内特征做相似度比对。适合智能相机、内容过滤、边缘图库检索等场景。
+
+**主要能力**
+
+- 文搜图（softmax 评分）/ 图搜图 / 特征匹配（余弦相似度），返回 Top-K
+- 图像特征入库 / 删除 / 查询（`clip_add` / `clip_remove` / `clip_contain`），持久化到 LevelDB
+- C ABI 接口（`clip_create` / `clip_match_text` / `clip_match_image` / `clip_get_text_feat` 等）+ Python 绑定（`pyclip`）+ Gradio Web Demo
+- 多模型支持：OpenAI CLIP、Chinese-CLIP、Jina CLIP v2、SigLIP2、MobileCLIP2-S2
+
+**平台支持**
+
+- 板端：`AX650N` / `AX650A` / `AX8850N` / `AX8850`
+- 算力卡：`AXCL`（通过 `devid` 指定卡）
+- 主机：x86_64（开发 / 测试）、aarch64（交叉编译 / 板端原生，含树莓派 5）
+
+**架构**
+
+```{mermaid}
+flowchart LR
+    subgraph BUILD["建库 · 离线"]
+        direction LR
+        IMG["图像集"] --> IENC["图像编码器<br/>CLIP Vision · NPU"] --> DB[("LevelDB<br/>key 到 feature")]
+    end
+    subgraph QUERY["检索 · 在线"]
+        direction LR
+        TXT["文本查询"] --> TENC["文本编码器<br/>CLIP Text · NPU"] --> TF["文本特征"]
+    end
+    DB --> MATCH["相似度匹配<br/>cosine / softmax"]
+    TF --> MATCH --> TOPK["Top-K 结果"]
 ```
+
+参考性能（cnclip ViT-L/14 336px，单张）：图像编码约 `88 ms / 304 MB` CMM，文本编码约 `4.6 ms / 122 MB` CMM。
+
+仓库：<https://github.com/AXERA-TECH/libclip.axera>
+
+### 多国语言翻译（libtranslate.axera）
+
+基于大语言模型的多国语言互译 SDK（AX650 / AXCL 双端），采用 `HY-MT1.5-1.8B`（GPTQ INT4 量化）翻译模型在 NPU 上做端侧推理。给定输入文本与目标语言即可返回译文，无需联网。
+
+**主要能力**
+
+- 文本互译：给定 `input` + `target_language` 返回 `output`（核心 `ax_translate` 单接口）
+- C ABI 接口（`ax_translate_sys_init` / `ax_translate_init` / `ax_translate`）+ Python 绑定（`pytranslate`）
+- 多种接入方式：CLI（`test_translate` / `translate_cli`）、HTTP 服务（`translate_svr`）、Gradio、Web 实时翻译
+- Web 实时翻译（`run_web_rt.sh`）可串联 VAD / ASR（`3D-Speaker-MT.Axera`），实现「语音 → 识别 → 翻译」实时链路
+
+**平台支持**
+
+- 板端：`AX650`（交叉编译）
+- 算力卡：`AXCL`（x86_64 / aarch64）
+
+**架构**
+
+```{mermaid}
+flowchart LR
+    IN["输入文本 + 目标语言"] --> TOK["Tokenizer"] --> LLM["翻译大模型<br/>HY-MT 1.8B INT4 · NPU"] --> OUT["译文"]
+    MIC["麦克风语音<br/>Web 实时"] -.-> ASR["VAD / ASR<br/>3D-Speaker-MT"] -.-> IN
+```
+
+仓库：<https://github.com/AXERA-TECH/libtranslate.axera>
