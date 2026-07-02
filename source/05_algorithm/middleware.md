@@ -1,11 +1,114 @@
 # 高效开发中间件
 
+中间件层介于底层芯片 SDK（MSP / AXCL）与上层业务应用之间，目标是把 AXERA 芯片的多媒体与算力能力封装成更简单、边界更稳定的接口，让开发者用更少的代码把「拉流 → 解码 → 推理 → 编码推流」这条链路跑起来。
+
+本页聚焦两个开源流媒体中间件：
+
+- **AX-Video SDK**：视频编解码 / 图像处理 / Pipeline 的能力封装库。
+- **AX-Pipeline**：基于 AX-Video SDK 的多路端到端 AI 流水线运行器（示例 app）。
+
+## 架构总览
+
+从上到下分为四层：应用/算法插件 → AX-Pipeline 编排 → AX-Video SDK 能力封装 → 芯片底座（MSP / AXCL）。
+
+```{mermaid}
+flowchart TB
+    APP["应用 / 算法插件<br/>YOLOv5·v8 / Helmet / 自定义"]
+
+    subgraph PIPE["AX-Pipeline · 多路流水线运行器"]
+        direction LR
+        DMX["Demux"] --> DEC["VDEC 解码"] --> FO["IVPS frame_output"]
+        FO --> INF["NPU 插件<br/>inproc / process"]
+        INF --> TRK["ByteTrack + OSD"]
+        FO --> ENC["VENC 编码"] --> MUX["Mux 到 mp4 / rtsp"]
+        TRK --> ENC
+    end
+
+    subgraph VID["AX-Video SDK · 视频能力封装"]
+        direction LR
+        VCODEC["编解码 / JPEG"]
+        VIMG["图像处理<br/>crop·resize·csc"]
+        VPIPE["Pipeline<br/>demux·mux·OSD"]
+    end
+
+    subgraph BASE["芯片底座"]
+        direction LR
+        MSP["MSP SDK<br/>AX650 / AX620E"]
+        AXCL["AXCL<br/>PCIe 算力卡"]
+    end
+
+    APP --> PIPE
+    PIPE --> VID
+    VID --> BASE
+```
+
+- **应用 / 算法插件**：用户业务逻辑，或以插件形式接入的模型（YOLOv5/v8、Helmet 等，也可自定义）。
+- **AX-Pipeline**：把多路 `demux → decode → (npu + osd + tracking) → encode → mux` 编排起来，通过 JSON 配置驱动。
+- **AX-Video SDK**：把编解码、JPEG、图像处理、Pipeline（demux/mux/frame output/OSD）封装成稳定接口，隔离 AX650 与 AX620E 系列的差异。
+- **芯片底座**：MSP SDK（板端 AX650 / AX620E）或 AXCL（PCIe 算力卡）。
+
 ## 流媒体处理
 
-- **AX-Video**：TODO（视频流处理框架说明与链接）。
-- **AX-Pipeline**：TODO（端到端 AI 流水线框架说明与链接）。
+### AX-Video SDK
+
+面向 AXERA 芯片的视频处理库，对芯片的视频编解码能力做一层更清晰、边界更稳定、接口更易用的封装。公共对外头文件尽量不直接暴露 MSP 细节，最终以单个动态库 `libax_video_sdk.so` 交付。
+
+**主要能力**
+
+- 系统初始化 / 反初始化
+- 自定义图像类 `AxImage`
+- 视频解码 / 视频编码
+- JPEG 编解码
+- 图像处理：`copy` / `crop` / `resize` / `cropresize` / `csc`
+- Pipeline：`demux` / `mux` / `frame output` / `OSD`
+
+**芯片支持**
+
+- 板端：`AX650`、`AX620E`（`AX630C` / `AX620Q` / `AX620QP`）
+- 算力卡：`AXCL`（x86_64 / aarch64 / riscv64 host）
+
+三类后端分开实现、分开维护；性能优先，尽量复用 AX 硬件能力与 CMM 内存。
+
+**设计与边界**
+
+- 接口尽量简单，AX650 与 AX620E 系列差异隔离清楚。
+- AX620E 系列面向 `1~2 路 1080p`；`AX630C / AX620Q / AX620QP` 目前按 `H.264 decode only` 处理（不支持 H.265 decode）。
+- AXCL 支持单进程多卡（`Pipeline` 级别固定单卡）；`GetLatestFrame` 默认返回设备侧图像，访问 host 内存需显式拷贝；OSD 当前仅支持 `rect`。
+
+仓库：<https://github.com/AXERA-TECH/ax-video-sdk>
+
+### AX-Pipeline
+
+基于 AX-Video SDK 的多路 pipeline 运行器示例工程，用于把端到端链路快速跑起来：
+
+```text
+demux → decode → (npu + osd + tracking) → N × (encode → mux)
+```
+
+**主要能力**
+
+- 多个 pipeline 并行运行，每个 pipeline 固定 `1 demux + N mux`
+- NPU 节点：YOLOv5 / YOLOv8 检测、`npu_max_fps` 限速、OSD 画框、ByteTrack 跟踪
+- 通过 JSON 配置定义 pipeline 行为（`configs/example.json`）
+- 可选 HTTP API 动态编辑 pipelines
+- 仅解码 / AI 模式：省略 `outputs` 即只做拉流解码 + 可选推理
+
+**插件机制**
+
+算法以 C ABI 插件（`.so`）形式接入，运行时支持两种隔离模式：
+
+- `inproc`：主进程 `dlopen` 直接调用，额外开销近 0、延迟最低，但插件崩溃会带崩主进程。
+- `process`：插件在子进程运行、通过 IPC 交互，可隔离崩溃（最多丢失 AI 结果），代价是 IPC 开销与额外排队延迟。
+
+跟踪既可以在主程序侧完成（`npu.enable_tracking`），也可以在插件内部完成（`ax_plugin_init_info.enable_tracking`）；插件内可直接复用 `axpipeline::tracking::ByteTrack` 搭建多级模型链路（检测 → 跟踪 → 分类 / 属性）。二者择一，避免双重跟踪。
+
+仓库：<https://github.com/AXERA-TECH/ax-pipeline>
 
 ## 业务逻辑组件
 
 - **文搜图**：TODO（基于 CLIP 类模型的图文检索组件）。
 - **多国语言翻译**：TODO（翻译组件说明与链接）。
+
+```{note}
+业务逻辑组件（文搜图 / 多国语言翻译）内容待补充。
+```
