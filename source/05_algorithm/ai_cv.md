@@ -31,6 +31,7 @@
 - DEIMv2：端到端检测，AX8850N | [HuggingFace](https://huggingface.co/AXERA-TECH/DEIMv2) | [ModelScope](https://modelscope.cn/models/AXERA-TECH/DEIMv2)
 - Deformable-Detr：Deformable DETR，AX8850N | [HuggingFace](https://huggingface.co/AXERA-TECH/Deformable-Detr) | [ModelScope](https://modelscope.cn/models/AXERA-TECH/Deformable-Detr)
 - OWLViT2：开放词汇视觉检测，AX8850N | [HuggingFace](https://huggingface.co/AXERA-TECH/OWLViT2) | [ModelScope](https://modelscope.cn/models/AXERA-TECH/OWLViT2)
+- WeDetect：轻量级开放词汇视觉检测 | [HuggingFace](https://huggingface.co/AXERA-TECH/WeDetect.axera) | [ModelScope](https://modelscope.cn/models/AXERA-TECH/WeDetect.axera)
 
 ### 行业场景检测
 
