@@ -10,7 +10,6 @@
 
 当前文档由原有 AX650 系列 NPU 使用说明扩展而来，后续覆盖：
 
-- [终端计算产品线](https://www.axera-tech.com/zh-hans/product/vision)
 - [边缘计算产品线](https://www.axera-tech.com/zh-hans/product/edge-aI-inference?q=zh-hans/product/edge-aI-inference)
 
 ## 2. 本地编译指南
@@ -18,7 +17,7 @@
 ### 2.1 git clone
 
 ```bash
-git clone https://github.com/AXERA-TECH/awesome-docs.git
+git clone -b dev https://github.com/AXERA-TECH/awesome-docs.git
 cd awesome-docs
 ```
 
