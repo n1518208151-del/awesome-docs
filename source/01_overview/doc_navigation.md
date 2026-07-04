@@ -24,10 +24,10 @@ flowchart TD
 
 | 你想做什么 | 去哪一章 |
 | --- | --- |
-| 了解芯片规格与场景 | [1. 概览与快速入门](index.md) |
-| 查模型推理速度 / 能效比 | [2. 性能与基准测试](../02_benchmark/index.md) |
+| 了解芯片规格和第一次拿到开发板 | [1. 概览与快速入门](index.md) |
+| 了解芯片AI的性能 | [2. 性能与基准测试](../02_benchmark/index.md) |
 | 选板卡 / 算力卡 | [3. 生态硬件](../03_hardware/index.md) |
-| 搭环境 / 用工具链 | [4. 开发环境与工具链](../04_dev_environment/index.md) |
+| 搭环境 / 用工具链，SDK 基本使用说明 | [4. 开发环境与工具链](../04_dev_environment/index.md) |
 | 跑 AI 算法示例 | [5. 算法与中间件](../05_algorithm/index.md) |
 | 找行业落地方案 | [6. 行业解决方案](../06_solutions/index.md) |
 | 第三方应用合作 | [7. 第三方应用与生态合作](../07_thirdparty/index.md) |
