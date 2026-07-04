@@ -7,8 +7,8 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'AXERA 产品文档中心'
-copyright = '2025, AXERA Semiconductor Co., Ltd.'
+project = 'AXERA EDGE Computer Docs'
+copyright = '2026, AXERA Semiconductor Co., Ltd.'
 author = 'AXERA & Community'
 
 # The full version, including alpha/beta/rc tags
