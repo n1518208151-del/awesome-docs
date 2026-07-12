@@ -8,7 +8,8 @@
 quick_start
 ```
 
-## 本章内容
+**本章内容**
 
 - **AX650 开发板快速上手**：基于 AX650N DEMO Board 说明；
 - **AX637 开发板快速上手**：基于 AX637R DEMO Board 说明。
+
