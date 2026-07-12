@@ -9,7 +9,8 @@ thirdparty_apps
 success_cases
 ```
 
-## 本章内容
+**本章内容**
 
 - **第三方AI应用软件**：合作伙伴提供的 AIBOX APP 与算法 SDK。
 - **成功案例展示**：客户落地案例分享（可选，征集中）。
+

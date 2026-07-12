@@ -12,8 +12,9 @@ cnn_transformer
 llm_vlm
 ```
 
-## 本章内容
+**本章内容**
 
 - **Benchmark 综述**：测试条件、环境信息与数据记录规范。
 - **CNN/Transformer 性能**：典型视觉模型推理速度与能效比。
 - **LLM/VLM 性能**：解码速度 (tokens/s)、首字延迟、并发路数与内存占用。
+

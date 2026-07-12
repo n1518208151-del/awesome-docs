@@ -7,7 +7,7 @@
 
 | 产品 / 形态 | 当前资料状态 | 说明 |
 | --- | --- | --- |
-| AX8850N / AX8850N 主控开发板 | 已有示例 | 适用于 AX650N DEMO Board |
+| AX8850 / AX8850N 主控开发板 | 已有示例 | 适用于 AX650N DEMO Board |
 | AX8850 / AX8850N 算力卡 | 已有示例 | 需先安装 AXCL 驱动，再按算力卡示例运行 |
 | AX8910 | 待补充 | 适用 AX8910 DEMO Board |
 
@@ -23,7 +23,7 @@
 ### 社区版本
 
 - [AX8850](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/tree/master/sdk)
-- AX8910(待完善) 
+- AX8910(待完善)
 
 ### 商用版本
 
@@ -36,26 +36,68 @@
 
 ### 硬件链接
 
-（待补充开发板和连接示意图）
+#### AX8850 / AX8850N 主控开发板：
+
+第一次拿到开发板按照如下方式连接：
+![开发板连接图](../_static/03_quick_start/ax8850n_board_connect.jpg)
+系统默认为自动获取IP，将板卡通过网线连接到路由器，由路由器分配IP地址。
+
+#### AX8910主控开发板：
+
+(待补充)
 
 ### 串口登录
 
-（待补充如何获取 IP 地址的方式和图）
+打开终端工具，例如：MobaXterm，添加session，选择Serial，选择对应的串口，波特率为115200，打开串口：
+![串口链接图](../_static/03_quick_start/mobax_01.png)
+在终端中执行`ifconfig`命令，查看板卡IP地址：
+![串口链接图](../_static/03_quick_start/mobax_02.jpg)
+例如上图中，` 192.168.100.225`为开发板IP地址。
 
 ### SSH 登录
 
-（待补充如何使用 MobaXterm 通过 ssh 登录上开发板）
+
+打开终端工具，添加session，选择SSH，Remote host地址填写串口中查询到的IP，User name填写root，选择OK：
+![SSH图](../_static/03_quick_start/mobax_03.jpg)
+在弹出的窗口选择“Accept”：
+![SSH图](../_static/03_quick_start/mobax_04.jpg)
+然后输入密码，默认密码为`123456`：
+![SSH图](../_static/03_quick_start/mobax_05.jpg)
+在弹出的窗口选择“Yes”：
+![SSH图](../_static/03_quick_start/mobax_06.jpg)
+随后进入SSH终端：
+![SSH图](../_static/03_quick_start/mobax_07.jpg)
+表示SSH登录成功。
 
 ## 运行示例
 
 ### 获取当前BSP版本号
 
-（待补充）
+#### AX8850 / AX8850N 主控开发板：
+
+在终端中执行`cat /proc/ax_proc/version`会打印当前BSP版本号：
+
+````bash
+root@ax650:~# cat /proc/ax_proc/version
+Ax_Version V3.10.2
+root@ax650:~#
+````
+
+#### AX8910主控开发板：
+
+(待补充)
 
 ### 运行基础AI示例
 
-- sample_npu_classification
-（待补充）
+rootfs中内置了 `sample_npu_classification`和`sample_npu_yolov5s`两个基础AI示例，同时模型文件和图片文件在`/opt/data/npu/`路径下。
 
+- sample_npu_classification
+  在终端中执行指令`sample_npu_classification`运行分类模型示例：
+  ![npu sample图](../_static/03_quick_start/classification.jpg)
 - sample_npu_yolov5s
-（待补充）
+  在终端中执行指令`sample_npu_yolov5s`运行yolov5s模型示例：
+  ![npu sample图](../_static/03_quick_start/yolov5s.jpg)
+  运行结束后可在执行路径生成yolov5s_out.jpg，为识别结果：
+  ![npu sample图](../_static/03_quick_start/yolov5s_out.jpg)
+
+
