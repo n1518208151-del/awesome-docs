@@ -187,7 +187,6 @@ flowchart LR
 * ​**VQE 分上下行**​：采集侧 `UpTalkVqe`（AEC/NS/AGC/VAD），播放侧 `DnVqe`（NS/AGC）；由 `IsUpTalkVqeEnabled`/`IsDnVqeEnabled` 决定是否配置。
 * ​**文件即链路端点**​：UNLINK 用 WAV（带头，`wave_parser`）；LINK 编码流为裸码流 + AAC RAW 的旁路元数据（asc/length）。
 
-
 #### 使用示例
 
 AX8850 / AX8850N 主控开发板示例：
@@ -719,10 +718,16 @@ root@ax650:~# sample_vo -e 0
 [SAMPLE-VO][SAMPLE_VO_DISPLAY_MODE_PRINT-1750] display0-mode(hdmi): 40000 60 800 840 968 1056 600 601 605 628 5
 [SAMPLE-VO][SAMPLE_VO_DISPLAY_MODE_PRINT-1750] display0-mode(dsi): 148500 60 1080 1100 1170 1200 1920 1970 2020 2062 a
 [SAMPLE-VO][SAMPLE_VO_DISPLAY_MODE_PRINT-1760] VO test Finished success!
-
 ````
 
-(待补充)
+###### 连续播放yuv数据
+
+1. 修改`/opt/etc/vo.ini`，将`[case10]` 中`chn_file_name`的路径修改为测试数据所在的路径：
+   ![vo_ini图](../_static/06_samples/vo_ini.jpg)
+2. 然后执行命令`sample_vo -p 10`，可看到输出如下：
+   <video src="../../_static/06_samples/vo/vo_play_yuv.mp4" width="100%" autoplay loop muted playsinline>
+
+</video>
 
 ```{note}
 更多信息以及使用示例请参考 SDK目录/msp/sample/vo/README.md
@@ -1550,7 +1555,95 @@ sample_vdec -i es_chn0_ut0_normal.264 -T 96 -w 1 --res=1920x1080 -W 1920 -H
 
 ##### AX8850 / AX8850N 主控开发板示例：
 
-(待补充)
+**编码示例：**
+执行如下命令对420sp格式的yuv文件进行编码，同时开启两路通道，分别编码H264和H265文件：
+
+````bash
+root@ax650:~# sample_venc -w 1920 -h 1080 -i ParkScene_1920x1080_24_yuv420sp_nv12.yuv -N 2 -l 3
+[INFO][SAMPLE-VENC][main][41]: Build at May 13 2026 15:36:15
+[WARN][SAMPLE-VENC][SampleTestCaseStart][87]: ========== UT_CASE_NORMAL start. ==========
+
+
+[WARN][SAMPLE-VENC][COMMON_VENC_SendFrameProc][631]: chn-1: Warning: read frame size : 0 less than 3110400
+
+
+[WARN][SAMPLE-VENC][COMMON_VENC_SendFrameProc][644]: chn-1: End of input file!
+
+
+[INFO][SAMPLE-VENC][COMMON_VENC_SendFrameProc][684]: chn-1 - Total input 240 frames, Encoder exit!
+[WARN][SAMPLE-VENC][COMMON_VENC_SendFrameProc][631]: chn-0: Warning: read frame size : 0 less than 3110400
+
+
+[WARN][SAMPLE-VENC][COMMON_VENC_SendFrameProc][644]: chn-0: End of input file!
+
+
+[INFO][SAMPLE-VENC][COMMON_VENC_SendFrameProc][684]: chn-0 - Total input 240 frames, Encoder exit!
+[INFO][SAMPLE-VENC][COMMON_VENC_GetStreamProc][785]: chn-0: Total get 240 encoded frames. getStream Exit!
+[INFO][SAMPLE-VENC][COMMON_VENC_GetStreamProc][785]: chn-1: Total get 240 encoded frames. getStream Exit!
+[WARN][SAMPLE-VENC][SampleTestCaseStart][95]: ========== UT_CASE_NORMAL end. ==========
+
+
+[WARN][SAMPLE-VENC][SampleTestCaseStart][104]: ====== All Test Case Finished! Pass: 1, Fail: 0. ======
+
+
+root@ax650:~# ls
+Desktop    Downloads  ParkScene_1920x1080_24_yuv420sp_nv12.yuv  Public     Videos     es_chn0_ut0_cbr.264  fb_vo            yolov5s_out.jpg
+Documents  Music      Pictures                                  Templates  audio.wav  es_chn1_ut0_cbr.265  startDesktop.sh
+````
+
+可以看到生成了`es_chn0_ut0_cbr.264`和`es_chn1_ut0_cbr.265`两个文件，可以使用vlc播放压缩后的视频：
+![vlc图](../_static/06_samples/vlc_play.jpg)
+
+**解码示例：**
+执行如下命令对H264文件进行解码，并保存YUV数据文件：
+
+````bash
+root@ax650:~# sample_vdec -i es_chn0_ut0_cbr.264 -T 96 -w 1 --res=1920x1080 -W 1920 -H 1088
+
+[SAMPLE][AX_VDEC][tid:45524][T][Sample_VdecTestBenchInit][line:2660]: Start! pid:45524, ppid:40647, date:May 13 2026, time:15:36:09, current_tv.tv_sec:1774493504
+
+[SAMPLE][AX_VDEC][tid:45524][T][Sample_VdecTestBenchInit][line:2674]: cmd:sample_vdec -i es_chn0_ut0_cbr.264 -T 96 -w 1 --res=1920x1080 -W 1920 -H 1088
+
+
+[SAMPLE][AX_VDEC][tid:45530][T][__VdecSendEndOfStream][line:759]: VdGrp=0, AX_VDEC_SendStream ret:0x0 AX_SUCCESS
+
+
+[SAMPLE][AX_VDEC][tid:45530][T][__VdecGrpSendStream][line:1557]: VdGrp=0, AX_VDEC_StopRecvStream Done! sLoopDecNum:0
+
+0
+1       2       3       4       5       6       7       8       9       10      11      12      13      14      15      16
+17      18      19      20      21      22      23      24      25      26      27      28      29      30      31      32
+33      34      35      36      37      38      39      40      41      42      43      44      45      46      47      48
+49      50      51      52      53      54      55      56      57      58      59      60      61      62      63      64
+65      66      67      68      69      70      71      72      73      74      75      76      77      78      79      80
+81      82      83      84      85      86      87      88      89      90      91      92      93      94      95      96
+97      98      99      100     101     102     103     104     105     106     107     108     109     110     111     112
+113     114     115     116     117     118     119     120     121     122     123     124     125     126     127     128
+129     130     131     132     133     134     135     136     137     138     139     140     141     142     143     144
+145     146     147     148     149     150     151     152     153     154     155     156     157     158     159     160
+161     162     163     164     165     166     167     168     169     170     171     172     173     174     175     176
+177     178     179     180     181     182     183     184     185     186     187     188     189     190     191     192
+193     194     195     196     197     198     199     200     201     202     203     204     205     206     207     208
+209     210     211     212     213     214     215     216     217     218     219     220     221     222     223     224
+225     226     227     228     229     230     231     232     233     234     235     236     237     238     239
+[SAMPLE][AX_VDEC][tid:45529][T][_VdecRecvThread][line:636]: uGrpCount=1, msec per frame: 55.6, AVG FPS: 18.0. total msec:13340.7, total frame count:240
+
+
+[SAMPLE][AX_VDEC][tid:45530][T][_VdecGroupThreadMain][line:1999]: VdGrp=0, bRecvFlowEnd break while(1)!
+
+
+[SAMPLE][AX_VDEC][tid:45524][T][main][line:120]: sample_vdec running status: Decode Finished!
+
+
+root@ax650:~# ls
+Desktop    Downloads  Pictures  Templates  audio.wav            es_chn1_ut0_cbr.265  group0_chn0_format3_w_1920_h_1080.yuv  yolov5s_out.jpg
+Documents  Music      Public    Videos     es_chn0_ut0_cbr.264  fb_vo                startDesktop.sh
+root@ax650:~#
+````
+
+可以看到生成了`group0_chn0_format3_w_1920_h_1080.yuv`，可以使用YUV图像查看工具检查解码后的YUV数据是否正确：
+
+![yuv图](../_static/06_samples/yuv_play.jpg)
 
 ##### AX8910 主控开发板示例：
 
@@ -1560,8 +1653,6 @@ sample_vdec -i es_chn0_ut0_normal.264 -T 96 -w 1 --res=1920x1080 -W 1920 -H
 更多信息以及使用示例请参考 SDK目录/msp/sample/venc/README.md 和 SDK目录/msp/sample/vdec/README.md
 编解码API说明请参考SDK文档 09 - AX VDEC API 文档 和 10 - AX VENC API 文档
 ```
-
-
 
 ```{note}
 本页面面向多媒体开发，相关 API 与 SDK 用法待补充。
