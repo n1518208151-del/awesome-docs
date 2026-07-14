@@ -15,7 +15,7 @@ AX650N DEMO板集成了AX650N基本所有的功能模块，扩展板提供了sen
 
 ## 驱动安装
 
-驱动安装包路径位于SDK发布包tools\\pc\_tools\\Driver\_V1.20.46.1.7z。
+驱动安装包路径位于SDK发布包`tools/pc_tools/Driver_V1.20.46.1.7z`。
 
 ### 步骤1
 
@@ -23,7 +23,7 @@ AX650N DEMO板集成了AX650N基本所有的功能模块，扩展板提供了sen
 
 ### 步骤2
 
-使用管理员权限，双击DriversForWin10\\DriverSetup.exe按照提示进行安装。
+使用管理员权限，双击`DriversForWin10\\DriverSetup.exe`按照提示进行安装。
 
 ### 步骤3
 
@@ -34,30 +34,57 @@ AX650N DEMO板集成了AX650N基本所有的功能模块，扩展板提供了sen
 
 ## 固件烧录
 
-### 步骤1
+本节使用 Windows 版 AXDL 工具为 AX650N（AX8850N/AX8850）DEMO Board 烧录 `.axp` 固件，也支持只更新 Kernel 等指定分区。
 
-双击AXDL.exe运行工具，工具栏单击axp加载按钮，选择.axp镜像包文件：
-![Stereo_depth demo图](../_static/04_hardware/stereo_27.jpg)
+### 前置物料
 
-### 步骤2
+1. **安装 USB 驱动**：按照本页[驱动安装](#驱动安装)章节完成驱动安装，并确认 Windows 设备管理器能够识别开发板。
+2. **获取 AXDL 工具**：AXDL安装包路径位于SDK发布包 `package/tools/pc_tools/AXDL_V1.25.22.1.7z`。
+3. **获取 AXP 固件**：下载与目标开发板匹配的 [AXP 固件](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/tree/master/sdk/edge-computing-AX650_SDK_V3.10.2/02.%20SDK/AX650_SDK_V3.10.2)。
+4. **查阅官方说明**：AXDL 的完整配置方法参阅[《AXDL 工具使用指南》](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/01.%20Software%20Doc/pc/00%20-%20AXDL%20%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.pdf)，SDK 安装、编译和文件系统操作参阅[《AX SDK 使用说明》](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/01.%20Software%20Doc/board/00%20-%20AX%20SDK%20%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf)。
 
-工具栏单击“设置” 按钮，在“Settings”页面AXDL将axp镜像包的镜像文件释放到本地Temp目录并自动进行配置，单击“OK”确认设置，然后在工具栏单击“开始” 按钮启动下载。
+```{warning}
+烧录会覆盖所选分区中的原有数据。开始前应确认固件与开发板型号匹配，并在烧录期间保持供电和 USB 连接稳定。
+```
 
-![Stereo_depth demo图](../_static/04_hardware/stereo_28.jpg)
+### 完整烧录 AXP 固件
 
-### 步骤3
+1. 双击 `AXDL.exe` 运行工具，单击工具栏中的 AXP 加载按钮，选择准备好的 `.axp` 固件。
 
-将开发板的J15 USB2.0 Micro-B接口通过数据线连接到电脑：
+   ![AXDL 加载 AXP 固件](../_static/04_hardware/stereo_27.jpg)
 
-![Stereo_depth demo图](../_static/04_hardware/stereo_35.jpg)
+2. 单击工具栏中的“设置”按钮。AXDL 会将固件释放到本地临时目录并自动配置分区；确认配置无误后单击“OK”。
 
-在给开发板上电后同时按住下载（DOWNLOAD）和复位（RSTN），随后松开复位（RSTN），等待工具下载完FDL后，再松开下载（DOWNLOAD）。
+   ![AXDL 固件分区设置](../_static/04_hardware/stereo_28.jpg)
 
-![Stereo_depth demo图](../_static/04_hardware/stereo_36.jpg)
+3. 使用数据线将开发板的 J15 USB 2.0 Micro-B 接口连接到电脑，并为开发板上电。
 
-![Stereo_depth demo图](../_static/04_hardware/stereo_30.jpg)
+   ![AX650 DEMO Board 烧录接口](../_static/04_hardware/stereo_35.jpg)
 
-进度条走完后显示“Passed”表示烧录成功：
+4. 单击 AXDL 工具栏中的“开始”按钮，使工具进入等待下载状态。
+5. 同时按住开发板的下载键（DOWNLOAD）和复位键（RSTN），随后先松开复位键；等待 AXDL 进入下载流程后，再松开下载键。
 
-![Stereo_depth demo图](../_static/04_hardware/stereo_31.jpg)
+   ![AX650 DEMO Board 下载键和复位键](../_static/04_hardware/stereo_36.jpg)
 
+   ![AXDL 正在下载 FDL](../_static/04_hardware/stereo_30.jpg)
+
+6. 等待烧录进度完成。AXDL 显示“Passed”表示固件烧录成功；随后重新启动开发板并检查系统版本和功能。
+
+   ![AXDL 烧录成功](../_static/04_hardware/stereo_31.jpg)
+
+### 单独烧录 Kernel
+
+如果只需更新 Kernel，无需重新烧录完整 AXP 固件。Kernel 的编译方法参阅《AX SDK 使用说明》中的“3 编译版本”章节。
+
+1. 在 AXDL 中加载与当前系统匹配的 AXP 固件，打开分区设置页面。
+2. 定位 `KERNEL` 分区，将其文件替换为新编译的 `boot_signed.bin`。
+
+   ![替换 KERNEL 分区文件](../_static/04_hardware/ax650_kernel_replace.png)
+
+3. 只勾选 `KERNEL` 分区，其中 `INIT` 和 `FDL` 为必下项，在确认其他分区未被选中。
+
+   ![选择 KERNEL 分区](../_static/04_hardware/ax650_kernel_select.png)
+
+4. 按照完整烧录时相同的连接和按键流程进入下载模式，完成局部烧录。其他分区也可采用相同方法单独替换，但必须确保分区文件与当前固件版本兼容。
+
+   ![单独烧录 KERNEL 分区](../_static/04_hardware/ax650_kernel_flash.png)

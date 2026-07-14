@@ -92,57 +92,7 @@ sdk/
 
 ## 固件烧录
 
-### 前置物料下载
-
-**（1）获取 AXDL 工具**：下载 SDK 压缩包（[AX650_SDK_V3.10.2_20260513151335.tgz](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/02.%20SDK/AX650_SDK_V3.10.2/AX650_SDK_V3.10.2_20260513151335.tgz)），解压后在 `package/tools/pc_tools` 路径下找到 `AXDL_V1.25.22.1.7z` 并解压。
-
-**（2）获取 AXP 固件**：下载与目标主板匹配的[AXP文件](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/tree/master/sdk/edge-computing-AX650_SDK_V3.10.2/02.%20SDK/AX650_SDK_V3.10.2)。
-
-**（3）查阅工具手册**：如需深入了解工具配置，请参考 [AXDL 工具使用指南.pdf](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/01.%20Software%20Doc/pc/00%20-%20AXDL%20%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.pdf)。
-
-**（4）SDK 使用说明**：SDK 安装、编译、文件系统等常规操作请参考 [AX SDK 使用说明](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/01.%20Software%20Doc/board/00%20-%20AX%20SDK%20%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf)。
-
-
-### 标准烧录步骤
-
-（1）将开发板连接电源线上电，并使用烧录数据线连接至电脑。
-
-![image.png](../_static/03_quick_start/axdl_00.png)
-
-（2）运行 AXDL 烧写工具，加载已下载的 `.axp` 烧录文件。
-
-![image.png](../_static/03_quick_start/axdl_01.png)
-
-（3）点击工具栏的“烧录”按钮（工具状态图标将由 ▶ 变为 ⏹，表示进入等待烧写状态）。
-
-![image.png](../_static/03_quick_start/axdl_02.png)
-
-（4）确认烧录接口正常连接后，**先按下开发板的“烧写键”，再按下“复位键”，随后同时松开两键**，设备即可进入烧写模式。
-
-![image.png](../_static/03_quick_start/axdl_03.png)
-
-（5）等待进度条走完，提示烧写完毕即可。
-
-![image.png](../_static/03_quick_start/axdl_04.png)
-
-![image.png](../_static/03_quick_start/axdl_05.png)
-
-
-### 单独烧录 Kernel (内核)
-
-若仅需更新系统 Kernel 而无需耗时重新烧写整个 AXP 固件包，可通过直接替换单文件实现。
-
-单独编译 Kernel 的方法参考 [AX SDK 使用说明](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/01.%20Software%20Doc/board/00%20-%20AX%20SDK%20%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf) 中的 **3 编译版本** 章节。
-
-（1）先加载对应的 AXP 固件包，定位并单独替换 `KERNEL` 分区的 `boot_signed.bin` 文件
-
-（2）勾选对应分区进行局部烧录（注：替换其他特定分区文件的方法与此相同）
-
-![image.png](../_static/03_quick_start/kernel_01.png)
-
-![image.png](../_static/03_quick_start/kernel_02.png)
-
-![image.png](../_static/03_quick_start/kernel_03.png)
+AX650N（AX8850N/AX8850）DEMO Board 的 AXDL 工具、AXP 固件、完整烧录和 Kernel 局部烧录方法，统一参阅 [AX650 DEMO Board：固件烧录](../04_hardware/ax650_board.md#固件烧录)。其他板卡请以对应硬件页面和交付资料为准。
 
 
 ## 运行示例
