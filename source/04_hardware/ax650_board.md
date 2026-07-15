@@ -39,7 +39,7 @@ AX650N DEMO板集成了AX650N基本所有的功能模块，扩展板提供了sen
 ### 前置物料
 
 1. **安装 USB 驱动**：按照本页[驱动安装](#驱动安装)章节完成驱动安装，并确认 Windows 设备管理器能够识别开发板。
-2. **获取 AXDL 工具**：AXDL安装包路径位于SDK发布包 `package/tools/pc_tools/AXDL_V1.25.22.1.7z`。
+2. **获取 AXDL 工具**：AXDL安装包路径位于SDK发布包 `tools/pc_tools/AXDL_V1.25.22.1.7z`。
 3. **获取 AXP 固件**：下载与目标开发板匹配的 [AXP 固件](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/tree/master/sdk/edge-computing-AX650_SDK_V3.10.2/02.%20SDK/AX650_SDK_V3.10.2)。
 4. **查阅官方说明**：AXDL 的完整配置方法参阅[《AXDL 工具使用指南》](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/01.%20Software%20Doc/pc/00%20-%20AXDL%20%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.pdf)，SDK 安装、编译和文件系统操作参阅[《AX SDK 使用说明》](https://modelscope.cn/models/AXERA-TECH/AX650-Community-Hub/resolve/master/sdk/edge-computing-AX650_SDK_V3.10.2/01.%20Software%20Doc/board/00%20-%20AX%20SDK%20%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf)。
 
