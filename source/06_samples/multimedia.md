@@ -190,9 +190,65 @@ flowchart LR
 #### 使用示例
 
 AX8850 / AX8850N 主控开发板示例：
-(待补充)
+首先，将Demo板音频部分的跳线调整为下图所示：
+![audio跳线图](../_static/06_samples/8850_audio.jpg)
+使用跳线帽连接好对应的引脚，使用板载两个mic作为输入源，并且使用line_out接口作为输出端口。
+然后在终端中执行如下命令：
+
+````bash
+sample_audio ai_aenc -D 0 -d 2 -r 16000 -p 160 -e aac --aac-type 2 --trans-type 2 -w 1 -o record.aac
+````
+
+会在当前路径下生成record.aac文件，将文件拷贝到电脑可以使用播放器播放，查看文件的采样率等信息与参数对应：
+![audio图](../_static/06_samples/aac_play.jpg)
+此时音频数据的链路如下：
+
+```mermaid
+flowchart LR
+    MIC["板载 MIC"] --> CODEC["板载 Audio Codec / ADC"]
+    CODEC --> AI["AX_AI<br/>card 0 / device 2<br/>16 kHz / period 160"]
+    AI -->|"PCM 音频帧"| LINK["AX_SYS_Link<br/>AI → AENC"]
+    LINK --> AENC["AX_AENC Channel 0<br/>AAC-LC / 48 kbps"]
+    AENC -->|"AAC ADTS 码流"| THREAD["AencRecvThread<br/>AX_AENC_GetStream"]
+    THREAD --> FILE[("record.aac")]
+```
+
+然后可以使用如下命令播放录制好的音频：
+
+````bash
+sample_audio adec_ao -D 0 -d 3 -r 16000 -e aac --aac-type 2 --trans-type 2 -i record.aac
+````
+
+将耳机或者其他音频设备如上图所示接好后会播放record.aac中的内容，此时数据链路如下：
+
+```mermaid
+flowchart LR
+    MIC["板载 MIC"] --> AI["AX_AI<br/>C0D2"]
+    AI -->|"16 kHz PCM"| AENC["AAC-LC Encoder<br/>ADTS / 48 kbps"]
+    AENC --> FILE[("record.aac")]
+
+    FILE --> ADEC["AAC Decoder"]
+    ADEC -->|"16 kHz PCM"| AO["AX_AO<br/>C0D3"]
+    AO --> HP["耳机"]
+```
+
 AX8910 主控开发板示例：
-(待补充)
+首先，将Demo板音频部分的拨码开关调整为下图所示：
+![audio图](../_static/06_samples/637audio.jpg)
+箭头指出的开关均需要拨到“ON”的位置，使用板载的两个mic作为音频输入源，并且使用line_out接口作为音频输出端口。
+然后在终端中执行如下命令：
+
+````bash
+sample_audio ai_aenc -D 0 -d 0 -r 16000 -p 160 -e aac --aac-type 2 --trans-type 2 -w 1 -o record.aac
+````
+
+然后可以使用如下命令播放录制好的音频：
+
+````bash
+sample_audio adec_ao -D 0 -d 1 -r 16000 -e aac --aac-type 2 --trans-type 2 -i record.aac
+````
+
+音频的录制和播放的数据流程图与AX8850N一致。
 
 ```{note}
 更多信息以及使用示例请参考 SDK目录/msp/sample/audio/README.md
@@ -1553,7 +1609,7 @@ sample_vdec -i es_chn0_ut0_normal.264 -T 96 -w 1 --res=1920x1080 -W 1920 -H
 
 #### 使用示例
 
-##### AX8850 / AX8850N 主控开发板示例：
+##### AX8850 / AX8910 主控开发板示例：
 
 **编码示例：**
 执行如下命令对420sp格式的yuv文件进行编码，同时开启两路通道，分别编码H264和H265文件：
@@ -1645,9 +1701,6 @@ root@ax650:~#
 
 ![yuv图](../_static/06_samples/yuv_play.jpg)
 
-##### AX8910 主控开发板示例：
-
-(待补充)
 
 ```{note}
 更多信息以及使用示例请参考 SDK目录/msp/sample/venc/README.md 和 SDK目录/msp/sample/vdec/README.md
